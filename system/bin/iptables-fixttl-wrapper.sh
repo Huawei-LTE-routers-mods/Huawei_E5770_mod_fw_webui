@@ -17,7 +17,7 @@ then
     elif [[ "$2" == "nat" ]];
     then
         /etc/anticensorship.sh
-        /etc/adblock.sh
+        /etc/dnscrypt.sh
     fi
 fi
 

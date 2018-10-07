@@ -9,12 +9,13 @@
       imei 12345678901234
 
     To change Wi-Fi Extender MAC, run `wifiext_mac`
+    Use `usb_mac` to change USB MAC address.
 
     Execute `anticensorship [VALUE]` to enable
     local transparent censorship circumvention
     proxy and DNS redirection.
 
-    `adblock` is for advertisement blocking.
+    `dnscrypt` is for DNSCrypt and advertisement blocking.
 
     Execute `ipv6` to enable or disable IPv6 support
 
