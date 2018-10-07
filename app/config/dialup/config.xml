@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?> 
+<config>
+    <!-- 快速休眠特性开关。取值范围[0,1]-->
+    <fastdorm_enable>1</fastdorm_enable>
+    <!-- 快速休眠类型。取值范围[0,1]-->
+	
+    <fastdorm_type>1</fastdorm_type>
+    <!-- 快速休眠时间。取值范围[0,30]，单位秒-->
+    <fastdorm_time>5</fastdorm_time>
+</config>

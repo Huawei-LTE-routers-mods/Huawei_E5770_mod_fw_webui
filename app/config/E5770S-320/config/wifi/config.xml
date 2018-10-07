@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+<wififeature>
+	<wifi5g_enabled>0</wifi5g_enabled>
+</wififeature>
+</config>

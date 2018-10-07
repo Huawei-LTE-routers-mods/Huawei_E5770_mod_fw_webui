@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <traffic_config>
+        <Enable>0</Enable>
+        <Interval>10</Interval>
+    </traffic_config>
+    <detect_config>
+        <Enable>1</Enable>
+        <MaxTimes>5</MaxTimes>
+		<RebootTimes>3</RebootTimes>
+        <Interval0>5</Interval0>
+		<Interval1>300</Interval1>
+    </detect_config>
+</config>

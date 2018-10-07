@@ -1,0 +1,63 @@
+#!/system/bin/sh
+
+NV_RESTORE_FLAG=$(cat /proc/dload_nark)
+if [ ${NV_RESTORE_FLAG} == "nv_restore_start" ] ;then
+    echo "This is nv restore!!!"
+    exit 0
+fi
+mkdir /var
+
+mkdir /var/run
+
+mkdir /var/log
+
+mkdir /var/np_ipc
+
+
+busybox ln -sf /system/bin/busybox /bin/ln
+busybox ln -sf /system/bin/busybox /bin/ifconfig
+busybox ln -sf /system/bin/busybox /bin/route
+busybox ln -sf /system/bin/busybox /bin/netstat
+busybox ln -sf /system/bin/busybox /bin/tftp
+busybox ln -sf /system/bin/busybox /bin/diff
+busybox ln -sf /system/bin/busybox /bin/find
+busybox ln -sf /system/bin/busybox /bin/free
+busybox ln -sf /system/bin/busybox /bin/ftpget
+busybox ln -sf /system/bin/busybox /bin/ftpput
+busybox ln -sf /system/bin/busybox /bin/ipup
+busybox ln -sf /system/bin/busybox /bin/ipdown
+busybox ln -sf /system/bin/busybox /bin/iproute
+busybox ln -sf /system/bin/busybox /bin/iplink
+busybox ln -sf /system/bin/busybox /bin/killall
+busybox ln -sf /system/bin/busybox /bin/man
+busybox ln -sf /system/bin/busybox /bin/more
+busybox ln -sf /system/bin/busybox /bin/traceroute
+busybox ln -sf /system/bin/busybox /bin/traceroute6
+busybox ln -sf /system/bin/busybox /bin/ping
+busybox ln -sf /system/bin/busybox /bin/ping6
+busybox ln -sf /system/bin/busybox /bin/pwd
+busybox ln -sf /system/bin/busybox /bin/lsusb
+busybox ln -sf /system/bin/busybox /bin/lspci
+busybox ln -sf /system/bin/busybox /bin/ls
+
+export LD_LIBRARY_PATH="/app/lib:/system/lib:/app/lib"
+
+export PATH="/bin:/sbin:/app/bin:/system/sbin:/system/bin:/system/xbin:/app/bin"
+
+mlogserver &
+
+ln -s /data /app/webroot/data
+busybox echo 1 > /proc/sys/net/ipv4/ip_forward
+
+busybox echo 1 > /proc/sys/net/ipv6/conf/all/forwarding
+
+if busybox [ -e /data/coredebug ]
+then
+	ulimit -c unlimited
+	echo "1" > /proc/sys/kernel/core_uses_pid
+	echo "/online/log/core-%e-%p-%t" > /proc/sys/kernel/core_pattern
+fi
+netmgrd &
+ln -s /dev/smd7 /dev/appvcom
+npdaemon &
+syswatch &

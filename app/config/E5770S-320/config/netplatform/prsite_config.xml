@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<prsite_config>
+    <EnablePriorityBits>0x0c</EnablePriorityBits>
+    <ResumePriorityBits>0x0c</ResumePriorityBits>
+</prsite_config>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+        <crashprotect>
+        <!-- 事件异常检测监控进程,procclass ：0：WEBSDK ,1: 路由协议 ,进程退出protectpolicy 0：重启进程 1：重启系统-->
+            <protectprocesslist>
+                        <sms>
+                            <procclass>0</procclass>
+                            <protectpolicy>0</protectpolicy>
+                        </sms>
+                        <oled>
+                            <procclass>0</procclass>
+                            <protectpolicy>0</protectpolicy>
+                        </oled>
+            </protectprocesslist>
+        </crashprotect>
+        <heartbeat>
+            <!-- module process maxresponsetime heartbeatinteral heartbeatpolicy moduleclass -->
+                <!-- module 对应进程，最大响应时间，心跳间隔，保护策略，模块类别：（0：WEBSDK，1： 路由协议）-->
+                <heartbeatlist>
+                        <sms>
+                                <process>sms</process>
+                                <maxresponsetime>120</maxresponsetime>
+                                <heartbeatinteral>20</heartbeatinteral>
+                                <heartbeatpolicy>0</heartbeatpolicy>
+                                <moduleclass>0</moduleclass>
+                        </sms>
+                        <wifi>
+                                <process>router</process>
+                                <maxresponsetime>120</maxresponsetime>
+                                <heartbeatinteral>20</heartbeatinteral>
+                                <heartbeatpolicy>0</heartbeatpolicy>
+                                <moduleclass>0</moduleclass>
+                        </wifi>
+                        <oled>
+                                <process>oled</process>
+                                <maxresponsetime>120</maxresponsetime>
+                                <heartbeatinteral>20</heartbeatinteral>
+                                <heartbeatpolicy>0</heartbeatpolicy>
+                                <moduleclass>0</moduleclass>
+                        </oled>
+                </heartbeatlist>
+        </heartbeat>
+</config>
