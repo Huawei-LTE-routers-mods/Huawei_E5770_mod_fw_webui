@@ -1,0 +1,1 @@
+﻿Parema teenuse pakkumiseks hangib seade pärast Internetiga ühendamist automaatselt Huaweilt või teie operaatorilt tarkvara värskendamisega seotud teavet. See protsess kasutab mobiilandmesidet ning vajab juurdepääsu teie seadme ainulaadsele tunnuskoodile (IMEI/SN) ja operaatori võrgutunnusele (PLMN), et kontrollida, kas teie seade vajab värskendamist.

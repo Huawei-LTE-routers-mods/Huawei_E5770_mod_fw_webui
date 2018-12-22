@@ -1,0 +1,1 @@
+﻿Jotta voimme tarjota parempaa palvelua, laite saa automaattisesti ohjelmiston päivitystiedot Huaweilta tai operaattorilta, kun Internet-yhteys on muodostettu. Prosessi kuluttaa mobiilidataa ja käyttää laitteesi yksilöivää tunnistetta (IMEI/SN) ja palveluntarjoajan verkon tunnusta (PLMN) laitetta varten saatavana olevien päivitysten tarkistamiseen.

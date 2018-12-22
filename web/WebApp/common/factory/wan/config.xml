@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<ftpalg>
+<ftpalgenable>1</ftpalgenable>
+<ftpalgport>21</ftpalgport>
+</ftpalg>
+<rtspalg>
+<rtfpalgenable>1</rtfpalgenable>
+<rtfpalgport>554</rtfpalgport>
+</rtspalg>
+<h323alg>
+<h323algenable>1</h323algenable>
+<h323algport>1720</h323algport>
+</h323alg>
+<pptalg>
+<pptpalgenable>1</pptpalgenable>
+<pptpalgport>1723</pptpalgport>
+</pptalg>
+</config>

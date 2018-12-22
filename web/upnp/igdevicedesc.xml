@@ -1,0 +1,71 @@
+<?xml version="1.0"?> 
+<root xmlns="urn:schemas-upnp-org:device-1-0"> 
+  <specVersion> 
+    <major>1</major> 
+    <minor>0</minor> 
+  </specVersion>
+  <device> 
+    <deviceType>urn:schemas-upnp-org:device:InternetGatewayDevice:1</deviceType> 
+    <friendlyName>Huawei Internet Gateway Device</friendlyName> 
+    <manufacturer>Huawei</manufacturer> 
+    <manufacturerURL>http://www.huawei.com</manufacturerURL> 
+    <modelDescription>Huawei Gateway</modelDescription> 
+    <modelName>IGD Version 1.0</modelName> 
+  <modelNumber>Huawei_Gateway</modelNumber> 
+  <modelURL>http://www.huawei.com/</modelURL> 
+    <UDN>uuid:00188216-0475-0018-8261-04750182a8a5</UDN> 
+		<serviceList> 
+      <service> 
+        <serviceType>urn:schemas-upnp-org:service:Layer3Forwarding:1</serviceType> 
+        <serviceId>urn:upnp-org:serviceId:L3Forwarding1</serviceId> 
+        <SCPDURL>/l3fwdSCPD.xml</SCPDURL> 
+        <controlURL>/upnp/control/L3Forwarding1</controlURL> 
+        <eventSubURL>/upnp/event/L3Forwarding1</eventSubURL> 
+      </service>
+    </serviceList>
+    <deviceList> 
+      <device> 
+		    <deviceType>urn:schemas-upnp-org:device:WANDevice:1</deviceType> 
+		    <friendlyName>WANDevice</friendlyName> 
+		    <manufacturer>Huawei</manufacturer> 
+		    <manufacturerURL>http://www.huawei.com</manufacturerURL> 
+		    <modelDescription>Huawei Gateway</modelDescription> 
+		    <modelName>IGD</modelName> 
+		    <modelNumber>1.0</modelNumber> 
+		    <modelURL>http://www.huawei.com/IGD/</modelURL> 
+  <UDN>uuid:00180000-dd12-0018-0000-dd1201100058</UDN> 
+		    <serviceList> 
+	        <service> 
+		        <serviceType>urn:schemas-upnp-org:service:WANCommonInterfaceConfig:1</serviceType> 
+		        <serviceId>urn:upnp-org:serviceId:WANCommonIFC1</serviceId> 
+		        <SCPDURL>/wancifcSCPD.xml</SCPDURL> 
+		        <controlURL>/upnp/control/WANCommonIFC1</controlURL> 
+		        <eventSubURL>/upnp/event/WANCommonIFC1</eventSubURL> 
+	        </service> 
+        </serviceList> 
+        <deviceList> 
+          <device> 
+			      <deviceType>urn:schemas-upnp-org:device:WANConnectionDevice:1</deviceType> 
+			      <friendlyName>WANConnectionDevice</friendlyName> 
+			      <manufacturer>Huawei</manufacturer> 
+			    	<manufacturerURL>http://www.huawei.com</manufacturerURL> 
+			      <modelDescription>Huawei Gateway</modelDescription> 
+			      <modelName>IGD</modelName> 
+			      <modelNumber>1.0</modelNumber> 
+			      <modelURL>http://www.huawei.com/IGD/</modelURL> 
+  <UDN>uuid:00180000-dd12-0018-0000-dd1202100090</UDN> 
+            <serviceList> 
+              <service> 
+		            <serviceType>urn:schemas-upnp-org:service:WANIPConnection:1</serviceType> 
+		            <serviceId>urn:upnp-org:serviceId:WANIPConn1</serviceId> 
+		            <SCPDURL>/wanipcSCPD.xml</SCPDURL> 
+		            <controlURL>/upnp/control/WANIPConn1</controlURL> 
+		            <eventSubURL>/upnp/event/WANIPConn1</eventSubURL> 
+              </service> 
+            </serviceList> 
+          </device> 
+        </deviceList> 
+      </device> 
+    </deviceList> 
+  </device> 
+</root>

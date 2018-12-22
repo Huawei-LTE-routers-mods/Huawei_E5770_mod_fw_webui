@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!-- 特性开关(默认显示、开启) 1(开启)/0(关闭) -->
+    <enable>0</enable>  
+    <!-- 一页显示多少条菜单列表 -->  
+    <page_size>9</page_size>
+</config>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <user>
+        <!--普通用户用户名-->
+        <username>admin</username>
+        <password>ONGAmF0bLnpgFBkOLL08lnQIg3GINU7JPSe/2G0JoBcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</password>
+        <password_with_session>OGM2OTc2ZTViNTQxMDQxNWJkZTkwOGJkNGRlZTE1ZGZiMTY3YTljODczZmM0YmI4YTgxZjZmMmFiNDQ4YTkxOA==</password_with_session>
+        <passwordencryped>3</passwordencryped>
+        <!--密码强度状态  -->
+        <remindstate>0</remindstate>
+        <hilink_login>0</hilink_login>
+        <!--重定向页面  -->
+        <main_page>/html/index.html</main_page>
+        <tokenenable>1</tokenenable>
+        <!--在线升级无需登录功能开关-->
+        <whitelist_enable>1</whitelist_enable>
+        <!--登陆用户名类型开关: 0 默认用户名admin登陆  1 定制用户名登陆-->
+        <loginusername_enable>0</loginusername_enable>
+        <salt>3724296ab748c6ab801bc37fa0060f2889d225b0d0427dbdae46f7c73f5fd78c</salt>
+        <iterations>500</iterations>
+        <storykey>05930d9ee370b9a94b14a6d5653bf7384a695d12cfd3bb2bd08876adfc117d39</storykey>
+        <serverkey>ba413c6fadec459ebb392031982dce7b38507e3b0f8a3b637434866025407087</serverkey>
+        <newsalt>fd4b1e6ad1b05db6ff288928fed3005ef4fdc9ade8be276220a8f41adcccda29</newsalt>
+        <newiterations>100</newiterations>
+        <newstorykey>e5fcafca4ed05640d53e2083d843e887b9d8f8ee79a7d72bd5086d6189ddd34d</newstorykey>
+        <newserverkey>b63f2ee99cfd6236f56120f768657c22447ead946953924a7a574f6fbc25bbdd</newserverkey>
+    </user>        
+</config>

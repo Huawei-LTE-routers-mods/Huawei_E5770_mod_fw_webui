@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <enable>1</enable>
+    <monthly_volume_enabled>1</monthly_volume_enabled>
+    <sim_change_enabled>0</sim_change_enabled>
+    <turnoffdataenable>1</turnoffdataenable>
+    <iccid></iccid>
+    <current_month_limit>0</current_month_limit> 
+    <current_month_limit_str>0MB</current_month_limit_str> 
+    <current_start_day>01</current_start_day> 
+    <set_month_data>0</set_month_data> 
+    <current_month_download_tmp>0</current_month_download_tmp> 
+    <current_month_download>0</current_month_download> 
+    <current_month_upload_tmp>0</current_month_upload_tmp> 
+    <current_month_upload>0</current_month_upload> 
+    <month_duration>0</month_duration> 
+    <month_duration_tmp>0</month_duration_tmp> 
+    <day>01</day> 
+    <month>01</month> 
+    <year>2012</year> 
+    <current_month_threshold>90</current_month_threshold>
+    <wifidatalimit>0</wifidatalimit>
+    <wifistartday>01</wifistartday>
+    <wifimonththreshold>90</wifimonththreshold>
+    <wifimonthlastcleartime>20120101</wifimonthlastcleartime>
+    <showtraffic>1</showtraffic>
+    <turnoffdataswitch>1</turnoffdataswitch>
+    <turnoffdataflag>0</turnoffdataflag>
+    <data_limit_awoke>0</data_limit_awoke>
+    <noticeovermonthlimit>0</noticeovermonthlimit>
+    <duration_display>0</duration_display>
+</config>

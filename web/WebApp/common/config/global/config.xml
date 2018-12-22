@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!-- global模块参数 -->
+    <!--  拨号成功自动打开指定主页，配置为空则不打开 --> 
+    <homepage></homepage>
+    <!--  默认语言 --> 
+    <default_language></default_language>
+
+    <!-- WebUI参数-->
+    <!--  自动消失的对话框消失的时间 --> 
+    <dialogdisapear>3000</dialogdisapear>
+    <!--  tips自动消失的时间 --> 
+    <tip_disapear>3000</tip_disapear>
+    <!--  页面中自动刷新数据的时间 --> 
+    <update_interval>3000</update_interval> 
+    <!-- 是否支持AP station功能。 取值范围[0,1] -->
+    <ap_station_enabled>0</ap_station_enabled>
+
+    <!-- 浏览器标题栏显示-->
+    <title>Mobile WiFi</title>
+
+    <!-- 是否需要登录-->
+    <login>1</login>
+
+    <!-- profile管理页面上是否显示autoapn-->
+    <autoapn_enabled>0</autoapn_enabled>
+
+    <!-- 是否需要页脚-->
+    <footer>1</footer>
+    
+    <!-- 是否有电池-->
+    <battery_enabled>1</battery_enabled>
+    
+    <!-- 是否有跳转至主页的continue按钮，取值范围[0,1]-->
+    <continue_button>1</continue_button>
+    
+    <!-- 输入主页地址时，是否进行特殊情况重定向-->
+    <special_redirect>1</special_redirect>
+      
+	<!--主页导航栏菜单显示个数，取值范围大于2-->
+	<menu_number>8</menu_number>
+
+    <!--漫游拨号时，是否提示-->
+    <roam_warn_enabled>1</roam_warn_enabled>
+    <!-- hotlinks链接定义-->
+    <hotlinks>
+        <enable>1</enable>
+	    <items>
+            <item></item>
+            <item></item>
+	        <item></item>
+        </items>
+    </hotlinks>
+    <!-- appmanagement初始化时内容显示状态 -->
+     <appmanagements>
+    	<enabled>1</enabled> 
+		<hilink>
+            <domestic>http://consumer.huawei.com/minisite/mobilewifiapp/download.html</domestic>
+            <foreign>http://consumer.huawei.com/minisite/mobilewifiapp/app.html</foreign>                  
+        </hilink>  
+		<mobileDoctor>
+			<windowsOS></windowsOS>
+			 <macOS></macOS>
+			<linuxOS></linuxOS>	 
+		</mobileDoctor>	
+    </appmanagements>  
+    <!-- 配置MC推荐页面，是否显示,默认不显示 -->	
+    <commend_enable>1</commend_enable>
+
+
+    <!-- 连接状态显示-->
+    <connection>
+        <enable>1</enable>
+        <connectionstatus>1</connectionstatus>
+    </connection>
+
+    <!-- 主界面connect图层显示位置-->
+    <position_info>
+        <offset>0</offset>
+        <offset_ie6>0</offset_ie6>
+    </position_info>    
+
+
+    <!-- 页面菜单定义-->
+    <menu>
+    	<home>home</home>
+	    <statistic>statistic</statistic>
+	    <commend>commend</commend>
+	    <sms>
+	       <inbox>smsinbox</inbox>
+	       <sent>smssent</sent>
+	       <drafts>smsdrafts</drafts>
+	       <sms_center_number>messagesettings</sms_center_number>
+	       <smsandroid>smsandroid</smsandroid>
+	       <sms_center_number_android>chatmessagesettings</sms_center_number_android>
+	    </sms>
+        <pb>phonebook</pb>
+        <!--<update>
+            <update_online>update</update_online>
+            <update_local>update_local</update_local>
+        </update>-->
+	    <sharing>
+	    	<sdcardsharing>sdcardsharing</sdcardsharing>
+	    	<sambasettings>sambasettings</sambasettings>
+	    	<sambasharinguser>sambasharinguser</sambasharinguser>
+	    	<dlna>dlna</dlna>
+	    </sharing>
+        <ussd>
+            <prepaid>
+                <!--<pre_service_title>activate_internet_service</pre_service_title>
+                <pre_fun_balanceInquiry>balanceInquiry</pre_fun_balanceInquiry>
+                <pre_fun_charge>charge</pre_fun_charge>-->
+                <pre_fun_general>general</pre_fun_general>
+            </prepaid>
+            <!--<postpaid>
+                <post_service_title>activate_internet_service</post_service_title>
+                <post_fun_balanceInquiry>balanceInquiry</post_fun_balanceInquiry>
+                <post_fun_charge>charge</post_fun_charge>
+                <post_fun_general>general</post_fun_general>
+            </postpaid>-->
+        </ussd>
+	    <!--<dlna>dlna</dlna>-->
+	    <settings>
+	    	<quick_setup>quicksetup</quick_setup>
+
+			<dialup>
+				<mobileconnection>mobileconnection</mobileconnection>
+				<profilesmgr>profilesmgr</profilesmgr>
+				<mobilenetworksettings>mobilenetworksettings</mobilenetworksettings>
+				
+			</dialup>
+			<internet>
+				<wifinetworks>wifinetworks</wifinetworks>					
+				<wifipriority>wifipriority</wifipriority>
+				<stationwps>stationwps</stationwps>
+			</internet>
+			<ethernet>
+				<ethernetsettings>ethernetsettings</ethernetsettings>
+				<ethernetstatus>ethernetstatus</ethernetstatus>
+				<macclone>macclone</macclone>
+			</ethernet>
+			<vpn>
+				<vpnstatus>vpnstatus</vpnstatus>
+				<vpnsettings>vpnsettings</vpnsettings>
+			</vpn>
+			<wlan>
+	            <wlanbasicsettings>wlanbasicsettings</wlanbasicsettings>
+	            <wlanadvanced>wlanadvanced</wlanadvanced>
+	            <wlanmacfilter>wlanmacfilter</wlanmacfilter>
+	            <wps>wps</wps>
+                <dhcp>dhcp</dhcp>
+			</wlan>
+			<voip>
+				<serverbasic>serverbasic</serverbasic>
+				<sipbasic>sipbasic</sipbasic>
+				<speeddial>speeddial</speeddial>
+			</voip>
+			<security>
+			    <pincodemanagement>pincodemanagement</pincodemanagement>
+                <!--<pincodeautovalidate>pincodeautovalidate</pincodeautovalidate>-->
+				<firewallswitch>firewallswitch</firewallswitch>
+				<macfilter>macfilter</macfilter>
+				<lanipfilter>lanipfilter</lanipfilter>
+				<virtualserver>virtualserver</virtualserver>
+				<specialapplication>specialapplication</specialapplication>
+				<dmzsettings>dmzsettings</dmzsettings>
+				<sipalgsettings>sipalgsettings</sipalgsettings>
+				<upnp>upnp</upnp>
+                                <nat>nat</nat>
+                                <!--<urlfilter>urlfilter</urlfilter>-->
+                                <ddns>ddns</ddns>
+                <bridgemode>bridgemode</bridgemode>
+			</security>
+			<!--<sntp>sntp</sntp>-->
+			<cbssettings>cbssettings</cbssettings>
+			<bluetooth>bluetooth</bluetooth>
+			<vsim>vsim</vsim>
+			<system>
+	            <deviceinformation>deviceinformation</deviceinformation>
+	            <!--<configuration>configuration</configuration>-->
+	            <modifypassword>modifypassword</modifypassword>
+	            <diagnosis>diagnosis</diagnosis>
+	            <restore>restore</restore>
+	            <reboot>reboot</reboot>
+	            <systemsettings>systemsettings</systemsettings>
+                <!--<updatesettings>updatesettings</updatesettings>-->
+			</system>
+	    </settings>
+	    <appmanagement>appmanagement</appmanagement>
+        <!--<stk>stk</stk>-->
+    </menu>
+    <copyright>2018</copyright>
+</config>
+

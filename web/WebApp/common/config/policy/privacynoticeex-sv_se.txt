@@ -1,0 +1,1 @@
+﻿Som en förbättrad service hämtar enheten automatiskt information om programuppdateringar från Huawei eller din operatör när du är ansluten till Internet. Den processen förbrukar mobildata och kräver åtkomst till enhetens unika ID (IMEI/SN) samt tjänsteleverantörens nätverks-ID (PLMN) för att kontrollera om enheten behöver uppdateras.

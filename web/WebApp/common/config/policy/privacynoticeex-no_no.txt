@@ -1,0 +1,1 @@
+﻿For å få bedre dekning vil enheten automatisk hente informasjon om programvareoppdateringer fra Huawei eller din operatør etter den har koblet til Internett. Denne prosessen bruker mobildata og krever tilgang til din enhets unike identifikator (IMEI/SN), og tjenesteleverandørens Nettverks-ID (PLMN) for å sjekke om din enhet behøver å oppdateres.

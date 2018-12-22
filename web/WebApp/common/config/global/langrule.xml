@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config> 
+    <lang_search_rule>
+        <priority1>sim</priority1>
+        <priority2>mcc</priority2>
+    </lang_search_rule>
+     <sim_lang>
+        <item name="ar" lang_name="ar-sa"/>
+	<item name="pl" lang_name="pl-pl"/>
+	<item name="da" lang_name="da-dk"/>
+	<item name="de" lang_name="de-de"/>
+	<item name="ru" lang_name="ru-ru"/>
+	<item name="fr" lang_name="fr-fr"/>
+  	<item name="fi" lang_name="fi-fi"/>
+	<item name="nl" lang_name="nl-nl"/>
+	<item name="cs" lang_name="cs-cz"/>
+        <item name="hr" lang_name="hr-hr"/>
+	<item name="mk" lang_name="mk-mk"/>
+	<item name="vi" lang_name="vi-vn"/>
+	<item name="no" lang_name="no-no"/>
+	<item name="pt" lang_name="pt-pt"/>
+	<item name="ja" lang_name="ja-jp"/>
+	<item name="sv" lang_name="sv-se"/>
+	<item name="sr" lang_name="sr-sp"/>
+	<item name="sk" lang_name="sk-sk"/>
+	<item name="tr" lang_name="tr-tr"/>
+ 	<item name="es" lang_name="es-es"/>
+	<item name="el" lang_name="el-gr"/>
+	<item name="hu" lang_name="hu-hu"/>
+	<item name="it" lang_name="it-it"/>
+	<item name="en" lang_name="en-us"/>
+ 	<item name="zh" lang_name="zh-cn"/>
+	<item name="ko" lang_name="ko-kr"/>
+ 	<item name="bg" lang_name="bg-bg"/>       
+        <item name="et" lang_name="et-ee"/>
+	<item name="he" lang_name="he-il"/>
+	<item name="id" lang_name="id-id"/>
+	<item name="lv" lang_name="lv-lv"/>
+	<item name="ro" lang_name="ro-ro"/>
+	<item name="sl" lang_name="sl-si"/>
+	<item name="uk" lang_name="uk-ua"/>
+    </sim_lang>
+    <mcc_lang>
+    </mcc_lang>
+</config>
+

@@ -1,0 +1,1 @@
+﻿Para fornecer melhores serviços, após conectar-se à Internet, este dispositivo obterá automaticamente da Huawei ou da sua operadora informações de atualização de software. Esse processo consumirá dados móveis e requer acesso ao identificador único do dispositivo (IMEI/SN) e ao ID de rede do provedor de serviços (PLMN) para verificar se o dispositivo precisa ser atualizado.

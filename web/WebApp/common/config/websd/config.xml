@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<enable>1</enable>
+	<sambaenable>0</sambaenable>
+	<dlnaenable>0</dlnaenable>
+    <sdcard>
+	<sdsharemode>0</sdsharemode>
+	<sdcardsharestatus>1</sdcardsharestatus>
+	<sdsharefilemode>0</sdsharefilemode>
+	<sdaccesstype>1</sdaccesstype>
+	<sdsharepath>/</sdsharepath>
+    </sdcard>
+    <samba>
+    <printerenable>0</printerenable>
+    </samba>
+</config>

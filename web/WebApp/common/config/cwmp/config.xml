@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+<enablecwmp>0</enablecwmp>
+<use_internet_profile>0</use_internet_profile>
+<url></url>
+<username></username>
+<password></password>
+<periodicinformenable>0</periodicinformenable>
+<periodicinforminterval>7200</periodicinforminterval>
+<parameterkey/>
+<connectionrequesturl/>
+<connectionrequestusername></connectionrequestusername>
+<connectionrequestpassword></connectionrequestpassword>
+<xsslcertenable>0</xsslcertenable>
+<xconnreqport>8081</xconnreqport>
+<roam_connect>1</roam_connect>
+<authmode>0</authmode>
+</config>

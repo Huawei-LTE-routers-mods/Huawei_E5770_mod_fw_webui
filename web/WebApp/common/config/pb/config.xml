@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!-- 特性开关(默认显示、开启) 1(开启)/0(关闭) -->
+    <enable>0</enable>
+    <!-- 一页显示多少条联系人列表 -->
+    <page_size>15</page_size>
+    <!-- 本地电话本容量。默认500，取值范围[50,500]，整型 -->
+    <localmax>500</localmax>	
+    <!-- 新建联系人姓名最大字节数 -->
+    <max_name_size>30</max_name_size>
+    <!-- 新建联系人电话号码最大字节数 -->
+    <max_phone_size>20</max_phone_size>
+    <!-- 新建联系人邮件最大字节数 -->
+    <max_email_size>30</max_email_size>
+    <!-- 检索字段最大字符数 -->
+    <max_search_size>10</max_search_size>
+    <!-- 新建群组最大数量 -->
+    <max_group_size>10</max_group_size>
+    <!-- 新建群组名最大字节数 -->
+    <max_group_name_size>25</max_group_name_size>
+</config>

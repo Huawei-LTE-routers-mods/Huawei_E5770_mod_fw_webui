@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dns_config>
+    <retry>3</retry>
+    <interval>2</interval>
+    <timeout>5</timeout>
+    <dns_white_list>
+        <dns>
+            <name>www.msftncsi.com</name>
+        </dns>
+        <dns>
+            <name>dns.msftncsi.com</name>
+        </dns>
+        <dns>
+            <name>go.microsoft.com</name>
+        </dns>
+    </dns_white_list>
+</dns_config>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<enable>0</enable>
+	<roam_connect>1</roam_connect>
+	<use_internet_profile>0</use_internet_profile>
+<featureswitch0>
+	<specialcharenable>1</specialcharenable>
+</featureswitch0>	
+<profile0>
+	<index>1</index>
+	<enable>1</enable>
+	<useragentport>10000</useragentport>
+	<profilename>profile1</profilename>
+	<stunserver/>
+	<stunport>3478</stunport>
+	<proxyserveraddress></proxyserveraddress>
+	<proxyserverport>5060</proxyserverport>
+	<registerserveraddress></registerserveraddress>
+	<registerserverport>5060</registerserverport>
+	<sipserverdomain></sipserverdomain>
+	<secondproxyserveraddress/>
+	<secondproxyserverport>5060</secondproxyserverport>
+	<secondsipserverdomain/>
+	<secondregisterserveraddress></secondregisterserveraddress>
+	<secondregisterserverport>5060</secondregisterserverport>
+	<outboudproxy/>
+	<outboudport>5060</outboudport>
+	<dtmfmethod>InBand</dtmfmethod>
+	<lineseq>0</lineseq>
+</profile0>
+<line0>
+	<index>0</index>
+	<enable>1</enable>
+	<seq>1</seq>
+	<directorynumber></directorynumber>
+	<busyonbusy>0</busyonbusy>
+	<username></username>
+	<password></password>
+	<clipenable>1</clipenable>
+	<faxoption>G711A</faxoption>
+	<faxdetecttype>1</faxdetecttype>
+	<wmienable>0</wmienable>
+	<uaprofileenable>0</uaprofileenable>
+	<callwaitingenable>1</callwaitingenable>
+	<calltransferenable>1</calltransferenable>
+	<echocancelenable>1</echocancelenable>
+	<comfortnoisegeneration>1</comfortnoisegeneration>
+</line0>
+<global0>
+	<interfacename/>
+	<umtsnumber>3333</umtsnumber>
+	<umtsenable>1</umtsenable>
+	<umtsclipenable>1</umtsclipenable>
+	<region>CN</region>
+	<digitmap>[X*#ABCD].T</digitmap>
+	<enablesharpkey>1</enablesharpkey>
+	<hotlineenble>0</hotlineenble>
+	<hotlineinterval>7</hotlineinterval>
+	<hotlinenumber/>
+	<offhooktime>250</offhooktime>
+	<onhooktime>250</onhooktime>
+	<minihookflash>80</minihookflash>
+	<maxhookflash>250</maxhookflash>
+	<registerexpires>900</registerexpires>
+	<pracksupport>0</pracksupport>
+	<urgencepriority>1</urgencepriority>
+	<sessionexpires>3600</sessionexpires>
+	<minisessionexpires>90</minisessionexpires>
+	<holdmethod>0</holdmethod>
+	<tansmitgain>0</tansmitgain>
+	<receivegain>0</receivegain>
+	<optionchecktype>0</optionchecktype>
+	<optionchecktime>30</optionchecktime>
+	<inerdigitimershort>5000</inerdigitimershort>
+	<inerdigitimerlong>10000</inerdigitimerlong>
+	<startdigittimerstd>10000</startdigittimerstd>
+	<unresponseinterval>60000</unresponseinterval>
+	<howltonetime>60000</howltonetime>
+	<busytonetime>40000</busytonetime>
+	<callallportspre>**9</callallportspre>
+	<urgenceroute>0</urgenceroute>
+	<urgencerouteaccount/>
+	<loglevel>0</loglevel>
+</global0>
+<codec0>
+	<index>1</index>
+	<codec>G.711-PCMA</codec>
+	<sliencesuppression>0</sliencesuppression>
+	<packetizationperiod>20</packetizationperiod>
+	<priority>1</priority>
+</codec0>
+<codec1>
+	<index>2</index>
+	<codec>G.711-PCMU</codec>
+	<sliencesuppression>0</sliencesuppression>
+	<packetizationperiod>20</packetizationperiod>
+	<priority>2</priority>
+</codec1>
+<codec2>
+	<index>3</index>
+	<codec>G.726-32</codec>
+	<sliencesuppression>1</sliencesuppression>
+	<packetizationperiod>20</packetizationperiod>
+	<priority>3</priority>
+</codec2>
+<codec3>
+	<index>4</index>
+	<codec>G.726-24</codec>
+	<sliencesuppression>1</sliencesuppression>
+	<packetizationperiod>20</packetizationperiod>
+	<priority>4</priority>
+</codec3>
+<codec4>
+	<index>5</index>
+	<codec>G.729</codec>
+	<sliencesuppression>1</sliencesuppression>
+	<packetizationperiod>20</packetizationperiod>
+	<priority>5</priority>
+</codec4>
+<codec5>
+	<index>6</index>
+	<codec>G.722</codec>
+	<sliencesuppression>1</sliencesuppression>
+	<packetizationperiod>20</packetizationperiod>
+	<priority>6</priority>
+</codec5>
+</config>

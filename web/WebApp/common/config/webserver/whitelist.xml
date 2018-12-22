@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!--只限制在线升级相关的资源和命令请求 -->
+    <!--不需要登陆，就可以访问的html或者htm资源文件列表 -->
+    <not_need_login_visited_res_white_list>
+        <uri>/html/update.html</uri>
+    </not_need_login_visited_res_white_list>
+    <!--针对post请求类型，考虑的是：不需要登陆就可以访问的restful报文列表，若为空，则说明所有post请求，不登陆均无权限发送 -->
+    <not_need_login_post_restful_white_list>
+        <uri>/online-update/check-new-version</uri>
+        <uri>/online-update/ack-newversion</uri>
+        <uri>/online-update/cancel-downloading</uri>
+        <uri>/online-update/ack-readytoupdate</uri>
+    </not_need_login_post_restful_white_list>
+</config>

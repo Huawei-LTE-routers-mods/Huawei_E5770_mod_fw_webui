@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <lanipfilter>
+		<wan>1</wan>
+		<number>16</number>
+		<lan_enable>1</lan_enable>
+		<protocol_imcp>1</protocol_imcp>
+	</lanipfilter>
+	<specialapplication>
+	    <number>16</number>
+	</specialapplication>
+	<virtualserver>
+	    <number>16</number>
+	</virtualserver>	
+	<firewallwanportpingswitch_enable>1</firewallwanportpingswitch_enable>
+    <urlfilter><number>16</number></urlfilter> 
+    <dialog_new_version>1</dialog_new_version>  
+    <install_processbar_enable>1</install_processbar_enable>
+    <install_processbar_speed>1</install_processbar_speed>
+</config>

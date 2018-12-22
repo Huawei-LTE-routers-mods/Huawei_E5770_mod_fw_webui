@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!-- 特性开关(要增加这个开关，与其他模块统一) -->
+    <enable>0</enable>
+
+    <!-- PC助手页面链接地址 -->
+		<winpath>http://download-c.huawei.com/download/downloadCenter?downloadId=822&amp;file=material</winpath>
+		<macpath>http://download-c.huawei.com/download/downloadCenter?downloadId=821&amp;file=material</macpath>
+		<upgradepath>http://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=945436kbln=zh-cn</upgradepath>
+</config>

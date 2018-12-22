@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<profile>
+<index>1</index>
+<profile_name>voip</profile_name>
+<apn>voip</apn>
+<dialup_num/>
+<username/>
+<password/>
+<auth_mode/>
+</profile>
+</config>

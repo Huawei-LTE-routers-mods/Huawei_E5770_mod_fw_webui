@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<config>
+    <sta_policy>0</sta_policy>
+    <!--0: 3G only 2: wifi prefer --> 
+    <oper_profile_cp>0</oper_profile_cp> 
+    <!--0: not copy yet, need to copy, 1: already copy, not  need to copy  -->  
+</config>

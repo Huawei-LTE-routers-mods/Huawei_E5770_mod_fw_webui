@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <enable>1</enable>
+    <dialmode_display>0</dialmode_display>
+    <profile>
+        <connectionmode>0</connectionmode>
+        <pppoeuser></pppoeuser>
+        <pppoepwd></pppoepwd>
+        <dialmode>0</dialmode>
+        <maxidletime>600</maxidletime>
+        <pppoemtu>1480</pppoemtu>
+        <dynamicipmtu>1500</dynamicipmtu>
+        <staticipmtu>1500</staticipmtu>
+        <pppoeauth>0</pppoeauth>
+        <ipaddress></ipaddress>
+        <netmask></netmask>
+        <gateway></gateway>
+        <primarydns></primarydns>
+        <secondarydns></secondarydns>
+        <dynamicsetdnsmanual>0</dynamicsetdnsmanual> 
+        <dynamicprimarydns></dynamicprimarydns> 
+        <dynamicsecondarydns></dynamicsecondarydns>
+    </profile>
+</config>

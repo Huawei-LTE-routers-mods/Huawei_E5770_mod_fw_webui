@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?> 
+<config>
+    <data_enable>1</data_enable>
+    <apn_retry>0</apn_retry>
+    <!--apn_retry_interval>300</apn_retry_interval-->
+    <!-- 页面上是否显示APN Retry特性开关-->
+    <apn_retry_enable>0</apn_retry_enable>
+    <connect_mode>0</connect_mode>
+    <roam_connect>0</roam_connect>
+    <max_idle_time>600</max_idle_time>
+    <mtu_size>1500</mtu_size>
+    <dataswitch>1</dataswitch>
+    <auto_dial_enabled>0</auto_dial_enabled>
+    <auto_dial_switch>1</auto_dial_switch>
+    <!-- 页面上是否显示dialup number-->
+    <dialup_number_enabled>0</dialup_number_enabled>
+    <!-- 页面上是否显示authentication-->
+    <authentication_info_enabled>0</authentication_info_enabled>
+    <!-- 页面上是否显示ip_type-->
+    <ip_type_enabled>1</ip_type_enabled>
+    <!-- 页面上是否显示APN-->
+    <apn_enabled>1</apn_enabled>
+    <!-- 小页面上是否显示拨号按钮-->
+    <connection_button>1</connection_button>
+    <editable>0</editable>
+
+    <!-- 快速休眠特性开关。取值范围[0,1]-->
+    <fastdorm_enable>0</fastdorm_enable>
+    <!-- 快速休眠类型。取值范围[0,1]-->
+    <fastdorm_type>1</fastdorm_type>
+    <!-- 快速休眠时间。取值范围[0,30]，单位秒-->
+    <fastdorm_time>5</fastdorm_time>
+    <pdp_always_on>0</pdp_always_on>
+</config>

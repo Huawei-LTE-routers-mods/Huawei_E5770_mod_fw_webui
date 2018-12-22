@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>  
+    <!-- 特性开关。 取值范围[0,1] -->
+    <enable>1</enable>
+    <!-- 本地特性开关。 取值范围[0,1] -->
+    <localupdate_enabled>0</localupdate_enabled>
+    <!-- 服务器地址。 -->
+    <!--<ip>update-china.huaweidevice.com</ip>-->
+    <ip>127.0.0.2</ip>
+    <port>80</port>
+    <!--<virtual_directory>china</virtual_directory>-->
+    <virtual_directory>nonexistent</virtual_directory>
+		
+    <!-- 升级周期，单位天。取值范围[0,x] -->
+    <update_interval>7</update_interval>
+    
+    <!-- sync time from TUS -->
+    <get_server_time>1</get_server_time>
+
+    <!-- 升级重定向特性开关。 取值范围[0,1] -->
+    <upgrade_redirction_enable>1</upgrade_redirction_enable>
+	
+    <!-- 每次开机是否设置升级重定向规则。 取值范围[0,1] -->
+    <upgrade_poweron>1</upgrade_poweron>
+    
+    <!-- C version 校验开关。取值范围[0,1] -->
+    <check_rule>1</check_rule>
+
+    <!-- 是否开启APN切换 -->
+    <is_deal_switchapn>0</is_deal_switchapn>
+
+    <!-- 低电后再提醒定时器，单位分钟。取值范围[0,x] -->
+    <battery_low_timer>360</battery_low_timer>
+    
+    <!-- 紧急升级状态开关-->
+    <!--<server_force_enable>1</server_force_enable>-->
+    <server_force_enable>0</server_force_enable>
+    <!-- 自动升级功能开关[0,1] -->
+    <auto_upg>0</auto_upg>
+    <!-- 稍后提醒时间，单位分钟。取值范围[0,1440]，不建议定制 -->
+    <reminder_interval>1440</reminder_interval>
+</config>

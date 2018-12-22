@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OperatorList>
+    <Item plmn="25011" shortdescr="Yota"/>
+    <Item plmn="25027" shortdescr="Letai"/>
+    <Item plmn="25039" shortdescr="Rostelecom"/>
+</OperatorList>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<config>
+    <!-- 特性开关。 取值范围[0,1] -->
+    <enable>0</enable>
+</config>
+

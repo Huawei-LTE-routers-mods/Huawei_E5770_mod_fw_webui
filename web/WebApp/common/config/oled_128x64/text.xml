@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!-- ID_TXT_SIM -->
+    <sim>
+        <enable>1</enable>
+        <sx>0</sx>
+        <sy>90</sy>
+        <height>22</height>
+        <width>128</width>        
+        <priority>3</priority>
+    </sim>
+
+    <!-- ID_TXT_NETWORK -->
+    <network>
+        <enable>1</enable>
+        <sx>0</sx>
+        <sy>90</sy>
+        <height>22</height>
+        <width>128</width>        
+        <priority>1</priority>
+    </network>
+
+    <!-- ID_TXT_CHARGE -->
+    <charge>
+        <enable>1</enable>
+        <sx>0</sx>
+        <sy>90</sy>
+        <height>22</height>
+        <width>128</width>        
+        <priority>5</priority>
+	<cbtime>8000</cbtime>     
+    </charge>
+
+	    <!-- ID_TXT_EXCHAGE_CHARGE -->
+    <exchage_charge>
+        <enable>1</enable>
+        <sx>0</sx>
+        <sy>90</sy>
+        <height>22</height>
+        <width>128</width>
+        <priority>5</priority>
+    </exchage_charge>
+
+    <!-- ID_TXT_TEMP -->
+    <temp>
+        <enable>1</enable>
+        <sx>0</sx>
+        <sy>90</sy>
+        <height>22</height>
+        <width>128</width>        
+        <priority>5</priority> 
+    </temp>
+	
+	<!-- ID_TXT_TEMP_POWEROFF -->
+    <temp_poweroff>
+        <enable>1</enable>
+        <sx>0</sx>
+        <sy>90</sy>
+        <height>20</height>
+        <width>128</width>        
+        <priority>24</priority> 
+        <cbtime>5000</cbtime>
+    </temp_poweroff>
+
+    <!-- ID_TXT_SSID -->
+    <ssid_cap>
+        <enable>1</enable>
+        <sx>0</sx>
+        <sy>20</sy>
+        <height>20</height>
+        <width>128</width>        
+        <priority>6</priority>
+    </ssid_cap>	
+	
+    <!-- ID_TXT_KEY -->
+    <key_cap>
+        <enable>1</enable>
+        <sx>0</sx>
+        <sy>20</sy>
+        <height>20</height>
+        <width>128</width>        
+        <priority>6</priority>
+    </key_cap>	
+    
+    <!-- ID_TXT_OFFLOAD -->
+    <offload>
+        <enable>0</enable>
+        <sx>0</sx>
+        <sy>90</sy>
+        <height>22</height>
+        <width>128</width>
+        <priority>7</priority>
+        <cbtime>5000</cbtime>
+    </offload>
+    
+    <!-- ID_TXT_IP_CAP -->
+    <info_title>
+        <enable>1</enable>
+        <sx>0</sx>
+        <sy>70</sy>
+        <height>15</height>
+        <width>128</width>
+        <priority>7</priority>
+        <font>2</font>
+        <format>148</format>
+    </info_title>
+    
+        <!-- ID_TXT_ROAMING -->
+    <roaming>
+        <enable>1</enable>
+        <sx>0</sx>
+        <sy>90</sy>
+        <height>22</height>
+        <width>128</width>
+        <priority>2</priority>
+        <font>0</font>
+        <format>28</format>
+    </roaming>
+    
+   <!-- downloading -->
+   <downloading>
+        <enable>1</enable>
+        <sx>0</sx>
+        <sy>58</sy>
+        <height>32</height>
+        <width>128</width>        
+        <priority>13</priority>
+        <font>0</font>
+	<format>156</format>
+	<frequency>1000</frequency>
+    </downloading>
+    
+    <update>
+        <enable>1</enable>
+        <sx>0</sx>
+        <sy>58</sy>
+        <height>64</height>
+        <width>128</width>        
+        <priority>13</priority>
+        <cbtime>3000</cbtime>
+        <font>0</font>
+        <format>156</format>
+	<frequency>500</frequency>
+    </update>
+    
+  <new_soft_ware>
+     <enable>1</enable>
+     <sx>0</sx>
+     <sy>60</sy>
+     <height>20</height>
+     <width>128</width>
+     <priority>13</priority>
+     <font>0</font>
+     <format>156</format>
+  </new_soft_ware>
+  
+  <new_soft_update>
+     <enable>1</enable>
+     <sx>45</sx>
+     <sy>90</sy>
+     <height>20</height>
+     <width>83</width>
+     <priority>13</priority>
+     <font>0</font>
+     <format>24</format>
+  </new_soft_update>
+  
+  <new_soft_cancel>
+     <enable>1</enable>
+     <sx>45</sx>
+     <sy>106</sy>
+     <height>20</height>
+     <width>83</width>
+     <priority>13</priority>
+     <font>0</font>
+     <format>24</format>
+  </new_soft_cancel>
+  
+    <wifi_wakeup>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>90</sy>
+        <height>20</height>
+        <width>116</width>  
+        <font>2</font>
+        <format>148</format>
+        <priority>17</priority>
+        <cbtime>3000</cbtime>
+        <erase>1</erase>
+    </wifi_wakeup>
+    <!-- ID_TXT_FREQUENCE_CHANGE -->
+    <wifi_frequence>
+        <enable>1</enable>
+        <sx>5</sx>
+        <sy>90</sy>
+        <height>20</height>
+        <width>118</width>  
+        <font>2</font>
+        <format>20</format>
+        <priority>14</priority>
+        <cbtime>5000</cbtime>
+    </wifi_frequence>	
+   <newversion_tips>
+        <enable>1</enable>
+        <sx>0</sx>
+        <sy>90</sy>
+        <height>20</height>
+        <width>128</width>        
+        <priority>8</priority>
+    </newversion_tips>
+   <small_oled_click_update>
+        <enable>1</enable>
+        <sx>0</sx>
+        <sy>90</sy>
+        <height>20</height>
+        <width>128</width>        
+        <priority>8</priority>
+    </small_oled_click_update>
+  <cradle_promote>
+    <enable>1</enable>
+    <sx>0</sx>
+    <sy>90</sy>
+    <height>20</height>
+    <width>128</width>
+    <priority>3</priority>
+    <font>0</font>
+    <format>28</format>
+    <frequency>1000</frequency>
+  </cradle_promote>
+ 
+    <dfs_scan>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>90</sy>
+        <height>20</height>
+        <width>116</width>  
+	<format>156</format>		
+        <priority>17</priority>
+    </dfs_scan>
+	
+  <cradle_midle_promote>
+    <enable>1</enable>
+    <sx>0</sx>
+    <sy>90</sy>
+    <height>20</height>
+    <width>128</width>
+    <priority>3</priority>
+    <font>0</font>
+    <format>28</format>
+    <frequency>1000</frequency>
+  </cradle_midle_promote>
+  
+    <imei>
+        <enable>0</enable>
+        <sx>1</sx>
+        <sy>67</sy>
+        <height>25</height>
+        <width>37</width>        
+        <font>2</font>
+        <format>88</format>
+        <priority>15</priority>
+        <frequency>1000</frequency>
+    </imei>	
+	
+    <sn>
+        <enable>0</enable>
+        <sx>1</sx>
+        <sy>92</sy>
+        <height>31</height>
+        <width>37</width>        
+        <font>2</font>
+        <format>88</format>
+        <priority>15</priority>
+        <frequency>1000</frequency>
+    </sn>	
+  <usb_error>
+	<enable>1</enable>
+	<sx>6</sx>
+	<sy>90</sy>
+	<height>20</height>
+	<width>128</width>  
+	<font>0</font>
+	<format>148</format>
+	<priority>8</priority>
+  </usb_error>
+
+</config>

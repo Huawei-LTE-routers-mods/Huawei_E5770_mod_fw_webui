@@ -1,0 +1,1 @@
+﻿Để cung cấp dịch vụ tốt hơn, thiết bị này sẽ tự động lấy thông tin cập nhật phần mềm từ Huawei hoặc nhà mạng của bạn sau khi kết nối với Internet. Quá trình này sẽ sử dụng dữ liệu di động và cần truy cập vào mã định danh duy nhất của thiết bị (IMEI/SN) và ID mạng nhà cung cấp dịch vụ (PLMN) để kiểm tra xem liệu thiết bị của bạn có cần cập nhật hay không.

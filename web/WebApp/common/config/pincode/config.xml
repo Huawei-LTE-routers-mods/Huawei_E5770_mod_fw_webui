@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<!--是否显示启用pin码-->
+	<pin_enable>1</pin_enable>
+	<!--是否显示禁用pin码-->
+	<pin_disable>1</pin_disable>
+	<!--是否显示修改pin码-->
+	<pin_modify>1</pin_modify>
+</config>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!-- 特性开关，默认关闭 -->
+    <enable>1</enable>
+    <ussd_encode>1</ussd_encode>
+</config>

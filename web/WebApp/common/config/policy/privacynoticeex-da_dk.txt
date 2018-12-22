@@ -1,0 +1,1 @@
+﻿For at opnå en bedre tjeneste vil denne enhed automatisk indhente oplysninger om softwareopdatering fra Huawei eller dit mobilselskab efter tilslutning til internettet. Denne proces vil bruge mobildata, og kræver adgang til din enheds unikke identifikator (IMEI/SN) og din tjenesteudbyders netværks-id (PLMN), for at kontrollere om din enhed har behov for opdatering.

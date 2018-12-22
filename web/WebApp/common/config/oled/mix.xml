@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+	<!-- ID_MIX_UPDATA -->
+    <updata_mix>
+        <enable>1</enable>
+        <sx>0</sx>
+        <sy>25</sy>
+        <height>103</height>
+        <width>128</width>  
+        <priority>8</priority>
+    </updata_mix>
+	
+	<!-- ID_MIX_UPDATA -->
+    <excharge_mix>
+        <enable>1</enable>
+        <sx>0</sx>
+        <sy>25</sy>
+        <height>103</height>
+        <width>128</width>  
+        <priority>20</priority>
+        <cbtime>10000</cbtime>
+    </excharge_mix>
+	
+	 <dual_ssid>
+        <enable>1</enable>
+        <sx>4</sx>
+        <sy>25</sy>
+        <height>70</height>
+        <width>120</width>  
+        <priority>17</priority>
+        <cbtime>5000</cbtime>
+    </dual_ssid>
+	
+	<!-- ID_MIX_UPDATA -->
+    <wps_tips>
+        <enable>1</enable>
+        <sx>0</sx>
+        <sy>25</sy>
+        <height>103</height>
+        <width>128</width>  
+        <priority>13</priority>
+        <cbtime>10000</cbtime>
+    </wps_tips>
+</config>

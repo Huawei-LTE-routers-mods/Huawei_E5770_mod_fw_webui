@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<devicename>1</devicename>
+	<serialnumber>1</serialnumber>
+	<imei>1</imei>
+	<imsi>1</imsi>
+	<iccid>1</iccid>
+	<msisdn>1</msisdn>
+	<hardwareversion>1</hardwareversion>
+	<softwareversion>1</softwareversion>
+	<webuiversion>1</webuiversion>
+	<macaddress1>1</macaddress1>
+	<macaddress2>0</macaddress2>
+	<productfamily>0</productfamily>
+	<classify>0</classify>
+	<wanipaddress>1</wanipaddress>
+	<wanipv6address>1</wanipv6address>
+	<esn>1</esn>
+	<meid>1</meid>
+	<pci>1</pci>
+	<sc>1</sc>
+	<cell_id>1</cell_id>
+	<rsrq>1</rsrq>
+	<rsrp>1</rsrp>
+	<rssi>1</rssi>
+	<sinr>1</sinr>
+	<rscp>1</rscp>
+	<ecio>1</ecio>
+</config>

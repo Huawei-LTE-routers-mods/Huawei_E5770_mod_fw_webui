@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <version>1.0</version>
+    <list>
+        <item>skytone.vmall.com</item>
+        <item>redirect_skytone_1.vmall.com</item>
+        <item>pcpay.vmall.com</item>
+        <item>mgate.unionpay.com</item>
+        <item>wappay.vmall.com</item>
+        <item>pay.hicloud.com</item>
+        <item>wappaygw.alipay.com</item>
+        <item>mapi.alipay.com</item>
+        <item>wapcashier.alipay.com</item>
+        <item>mbuf.alipay.com</item>
+        <item>www.paypal.com</item>
+        <item>www.sandbox.paypal.com</item>
+        <item>cms.paypal.com</item>
+        <item>update-china.huaweidevice.com</item>
+        <item>omeo.alipay.com</item>
+        <item>rds.alipay.com</item>
+        <item>i.alipayobjects.com</item>
+        <item>a.alipayobjects.com</item>
+        <item>res.vmall.com</item>
+        <item>data.hicloud.com</item>
+        <item>hwid1.vmall.com</item>
+        <item>hwid3.vmall.com</item>
+        <item>hwid5.vmall.com</item>
+        <item>hwid6.vmall.com</item>
+        <item>ynuf.alipay.com</item>
+    </list>
+</config>

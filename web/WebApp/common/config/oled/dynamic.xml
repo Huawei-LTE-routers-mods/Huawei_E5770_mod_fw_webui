@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <!-- PLMN -->
+  <plmn>
+    <enable>1</enable>
+    <sx>6</sx>
+    <sy>50</sy>
+    <height>22</height>
+    <width>116</width>
+    <priority>0</priority>
+    <font>0</font>
+    <format>28</format>
+    <frequency>1000</frequency>
+  </plmn>
+  <!-- IDLEPLMN -->
+  <idleplmn>
+    <enable>1</enable>
+    <sx>6</sx>
+    <sy>25</sy>
+    <height>20</height>
+    <width>116</width>
+    <priority>0</priority>
+    <font>0</font>
+    <format>28</format>
+    <frequency>1000</frequency>
+  </idleplmn>
+  <!-- apn -->
+  <apn>
+    <enable>0</enable>
+    <sx>0</sx>
+    <sy>50</sy>
+    <height>22</height>
+    <width>128</width>
+    <priority>0</priority>
+  </apn>
+
+  <!-- flux -->
+  <flux>
+    <enable>1</enable>
+    <sx>6</sx>
+    <sy>106</sy>
+    <height>16</height>
+    <width>116</width>
+    <priority>1</priority>
+    <font>2</font>
+    <format>4</format>
+  </flux>
+
+  <!-- wifi-security_type -->
+  <wifi_security>
+    <enable>0</enable>
+    <sx>18</sx>
+    <sy>112</sy>
+    <height>16</height>
+    <width>92</width>
+    <priority>0</priority>
+    <font>2</font>
+    <format>4</format>
+  </wifi_security>
+
+  <!-- wifi-ssid -->
+  <ssid>
+    <enable>1</enable>
+    <sx>42</sx>
+    <sy>40</sy>
+    <height>20</height>
+    <width>80</width>
+    <priority>15</priority>
+    <cbtime>30000</cbtime>
+    <font>2</font>
+    <format>8</format>
+    <frequency>1000</frequency>
+  </ssid>
+
+  <!-- wifi-key -->
+  <key>
+    <enable>1</enable>
+    <sx>42</sx>
+    <sy>60</sy>
+    <height>20</height>
+    <width>80</width>
+    <priority>15</priority>
+    <cbtime>30000</cbtime>
+    <font>2</font>
+    <format>8</format>
+    <frequency>1000</frequency>
+  </key>
+
+  <ssid_cap>
+    <enable>1</enable>
+    <sx>5</sx>
+    <sy>40</sy>
+    <height>20</height>
+    <width>37</width>
+    <font>2</font>
+    <format>72</format>
+    <priority>15</priority>
+    <frequency>1000</frequency>
+  </ssid_cap>
+
+  <key_cap>
+    <enable>1</enable>
+    <sx>5</sx>
+    <sy>60</sy>
+    <height>20</height>
+    <width>37</width>
+    <font>2</font>
+    <format>72</format>
+    <priority>15</priority>
+    <frequency>1000</frequency>
+  </key_cap>
+
+  <!-- offload_ssid -->
+  <offload_ssid>
+    <enable>1</enable>
+    <sx>6</sx>
+    <sy>50</sy>
+    <height>22</height>
+    <width>116</width>
+    <priority>3</priority>
+    <font>2</font>
+    <format>28</format>
+    <frequency>1000</frequency>
+  </offload_ssid>
+  
+  <!-- idle_offload_ssid -->
+  <idle_offload_ssid>
+    <enable>1</enable>
+    <sx>6</sx>
+    <sy>25</sy>
+    <height>20</height>
+    <width>116</width>
+    <priority>3</priority>
+    <font>2</font>
+    <format>28</format>
+    <frequency>1000</frequency>
+  </idle_offload_ssid>
+  
+  <!-- intermode_pri-->
+  <intermode_pri>
+    <enable>1</enable>
+    <sx>6</sx>
+    <sy>90</sy>
+    <height>16</height>
+    <width>116</width>
+    <priority>0</priority>
+    <font>2</font>
+    <format>4</format>
+  </intermode_pri>
+
+  <!-- downloading -->
+  <downloading>
+    <enable>1</enable>
+    <sx>6</sx>
+    <sy>58</sy>
+    <height>32</height>
+    <width>116</width>
+    <priority>13</priority>
+    <font>0</font>
+    <format>140</format>
+    <frequency>1000</frequency>
+  </downloading>
+
+  <!-- download_progress -->
+  <download_progress>
+    <enable>1</enable>
+    <sx>6</sx>
+    <sy>90</sy>
+    <height>32</height>
+    <width>116</width>
+    <priority>13</priority>
+    <font>0</font>
+    <format>140</format>
+  </download_progress>
+
+  <!-- update -->
+  <update>
+    <enable>1</enable>
+    <sx>6</sx>
+    <sy>58</sy>
+    <height>64</height>
+    <width>116</width>
+    <priority>13</priority>
+    <cbtime>3000</cbtime>
+    <font>0</font>
+    <format>140</format>
+    <frequency>500</frequency>
+  </update>
+
+  <!-- roaming -->
+  <roaming>
+    <enable>1</enable>
+    <sx>6</sx>
+    <sy>50</sy>
+    <height>46</height>
+    <width>116</width>
+    <priority>2</priority>
+    <font>2</font>
+    <format>12</format>
+    <frequency>500</frequency>
+  </roaming>
+  
+    <infomation>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>48</sy>
+        <height>40</height>
+        <width>116</width>
+        <priority>15</priority>
+        <font>2</font>
+        <format>148</format>
+        <cbtime>10000</cbtime>
+    </infomation>
+    
+    <!-- ID_DYNAMIC_IDLE_SSID -->
+    <idlessid_cap>
+        <enable>1</enable>
+        <sx>45</sx>
+        <sy>50</sy>
+        <height>20</height>
+        <width>75</width>  
+        <font>2</font>
+        <format>152</format>        
+        <priority>0</priority>
+    </idlessid_cap>	
+	
+    <!-- ID_DYNAMIC_IDLE_PWD-->
+    <idlepwd_cap>
+        <enable>1</enable>
+        <sx>45</sx>
+        <sy>72</sy>
+        <height>20</height>
+        <width>75</width> 
+        <font>2</font>  
+        <format>152</format>       
+        <priority>0</priority>
+    </idlepwd_cap>
+	
+	<!-- ID_DYNMIC_BATTERY_PENCENT -->
+    <batt_percent_poweroff_charge>
+        <enable>1</enable>
+        <sx>4</sx>
+        <sy>34</sy>
+        <height>20</height>
+        <width>124</width> 
+        <font>0</font>  
+        <format>4</format>       
+        <priority>20</priority>
+    </batt_percent_poweroff_charge>
+  
+       <!-- ID_DYNAMIC_IDLE_SSID -->
+    <idlessid_cap_wrap>
+        <enable>1</enable>
+        <sx>45</sx>
+        <sy>50</sy>
+        <height>32</height>
+        <width>75</width>  
+        <font>2</font>
+        <format>408</format>        
+        <priority>0</priority>
+    </idlessid_cap_wrap>	
+	
+    <!-- ID_DYNAMIC_IDLE_PWD-->
+    <idlepwd_cap_scroll>
+        <enable>1</enable>
+        <sx>45</sx>
+        <sy>82</sy>
+        <height>16</height>
+        <width>75</width> 
+        <font>2</font>  
+        <format>152</format>       
+        <priority>0</priority>
+    </idlepwd_cap_scroll>
+</config>

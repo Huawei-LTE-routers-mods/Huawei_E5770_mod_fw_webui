@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<enable>1</enable>
+	<condition>
+		<nosim>0</nosim>
+		<simlock>1</simlock>
+		<pin>1</pin>
+		<puk>1</puk>
+		<roam>0</roam>
+		<nosrv>0</nosrv>
+		<disconn>0</disconn>
+	</condition>
+	<portal>
+		<forceredir>0</forceredir>
+	</portal>
+</config>

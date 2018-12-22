@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<networktypes><index>001</index><networktype></networktype></networktypes>
+	<networktypes><index>002</index><networktype></networktype></networktypes>
+	<networktypes><index>003</index><networktype></networktype></networktypes>
+	<networktypes><index>004</index><networktype></networktype></networktypes>
+	<networktypes><index>005</index><networktype></networktype></networktypes>
+	<networktypes><index>006</index><networktype></networktype></networktypes>
+	<networktypes><index>007</index><networktype></networktype></networktypes>
+	<networktypes><index>008</index><networktype></networktype></networktypes>
+	<networktypes><index>009</index><networktype></networktype></networktypes>
+	<networktypes><index>010</index><networktype></networktype></networktypes>
+	<networktypes><index>011</index><networktype></networktype></networktypes>
+	<networktypes><index>012</index><networktype></networktype></networktypes>
+	<networktypes><index>013</index><networktype></networktype></networktypes>
+	<networktypes><index>015</index><networktype></networktype></networktypes>
+	<networktypes><index>017</index><networktype></networktype></networktypes>
+	<networktypes><index>018</index><networktype></networktype></networktypes>
+	<networktypes><index>019</index><networktype></networktype></networktypes>	
+    <networktypes><index>021</index><networktype></networktype></networktypes>
+    <networktypes><index>022</index><networktype></networktype></networktypes>
+    <networktypes><index>023</index><networktype></networktype></networktypes>
+    <networktypes><index>024</index><networktype></networktype></networktypes>
+    <networktypes><index>025</index><networktype></networktype></networktypes>
+    <networktypes><index>026</index><networktype></networktype></networktypes>
+    <networktypes><index>027</index><networktype></networktype></networktypes>
+    <networktypes><index>028</index><networktype></networktype></networktypes>
+    <networktypes><index>029</index><networktype></networktype></networktypes>
+    <networktypes><index>030</index><networktype></networktype></networktypes>
+    <networktypes><index>031</index><networktype></networktype></networktypes>
+    <networktypes><index>032</index><networktype></networktype></networktypes>
+    <networktypes><index>033</index><networktype></networktype></networktypes>
+    <networktypes><index>034</index><networktype></networktype></networktypes>
+    <networktypes><index>035</index><networktype></networktype></networktypes>
+    <networktypes><index>036</index><networktype></networktype></networktypes>
+    <networktypes><index>041</index><networktype></networktype></networktypes>
+    <networktypes><index>042</index><networktype></networktype></networktypes>
+    <networktypes><index>043</index><networktype></networktype></networktypes>
+    <networktypes><index>044</index><networktype></networktype></networktypes>
+    <networktypes><index>045</index><networktype></networktype></networktypes>
+    <networktypes><index>046</index><networktype></networktype></networktypes>
+    <networktypes><index>061</index><networktype></networktype></networktypes>
+    <networktypes><index>062</index><networktype></networktype></networktypes>
+    <networktypes><index>063</index><networktype></networktype></networktypes>
+    <networktypes><index>064</index><networktype></networktype></networktypes>
+    <networktypes><index>065</index><networktype></networktype></networktypes>
+	<networktypes><index>101</index><networktype></networktype></networktypes>	
+</config>
+    
+

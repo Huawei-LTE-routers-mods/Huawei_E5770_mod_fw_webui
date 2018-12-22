@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <NetworkModes>
+         <!-- 网络优先级列表 -->
+		    <Mode>0</Mode>
+		    <Mode>1</Mode>
+		    <Mode>2</Mode>
+	</NetworkModes>
+    <!--是否显示波特率-->
+    <networkband_enable>0</networkband_enable>
+    <!--是否显示注册方式-->
+    <networksearch>1</networksearch>
+	<!--拨上号是否可以注册网络-->
+	<networksearchwhenconnected>1</networksearchwhenconnected>
+</config>

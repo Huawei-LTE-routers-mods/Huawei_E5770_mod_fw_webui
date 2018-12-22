@@ -1,29 +1,26 @@
 #!/system/bin/busybox sh
 
-NETWORK_AUTO='AT^SYSCFGEX="00",3FFFFFFF,2,2,7fffffffffffffff,,'
-NETWORK_GSM_ONLY='AT^SYSCFGEX="01",3FFFFFFF,2,2,7fffffffffffffff,,'
-NETWORK_UMTS_ONLY='AT^SYSCFGEX="02",3FFFFFFF,2,2,7fffffffffffffff,,'
-NETWORK_LTE_ONLY='AT^SYSCFGEX="03",3FFFFFFF,2,2,7fffffffffffffff,,'
-NETWORK_LTE_UMTS='AT^SYSCFGEX="0302",3FFFFFFF,2,2,7fffffffffffffff,,'
-NETWORK_LTE_GSM='AT^SYSCFGEX="0301",3FFFFFFF,2,2,7fffffffffffffff,,'
-NETWORK_UMTS_GSM='AT^SYSCFGEX="0201",3FFFFFFF,2,2,7fffffffffffffff,,'
+# Radio mode OLED handler.
+# By ValdikSS, iam@valdikss.org.ru
 
-CONF_FILE="/var/radio_mode"
-ATC="/app/bin/oled_hijack/atc"
+HOOK_CLIENT="/app/bin/oled_hijack/net_hook_client"
+NETWORK_REQ_PRE='<?xml version="1.0" encoding="UTF-8"?><request><NetworkMode>'
+NETWORK_REQ_POST='</NetworkMode><NetworkBand>3FFFFFFF</NetworkBand><LTEBand>7fffffffffffffff</LTEBand></request>'
 
-# Mode caching to prevent menu slowdowns
-if [[ ! -f "$CONF_FILE" ]]
-then
-    CURRENT_MODE="$($ATC 'AT^SYSCFGEX?' | grep 'SYSCFGEX' | sed 's/^[^"]*"\([^"]*\)".*/\1/')"
-    echo $CURRENT_MODE > $CONF_FILE
-else
-    CURRENT_MODE="$(cat $CONF_FILE)"
-fi
+function get_state() {
+    OUT="$(timeout -t 5 $HOOK_CLIENT net net-mode 1 1)"
+    CURRENT_MODE="$(echo "$OUT" | grep 'NetworkMode' | sed -E 's~.+>(.+)</.+~\1~')"
+    echo $CURRENT_MODE
+}
 
-echo $CURRENT_MODE
+function set_state() {
+    timeout -t 10 $HOOK_CLIENT net net-mode 2 "${NETWORK_REQ_PRE}$1${NETWORK_REQ_POST}"
+}
 
 if [[ "$1" == "get" ]]
 then
+    get_state
+
     [[ "$CURRENT_MODE" == "00" ]]   && exit 0
     [[ "$CURRENT_MODE" == "01" ]]   && exit 1
     [[ "$CURRENT_MODE" == "02" ]]   && exit 2
@@ -38,12 +35,13 @@ fi
 
 if [[ "$1" == "set_next" ]]
 then
-    [[ "$CURRENT_MODE" == "00" ]]   && echo -e "$NETWORK_GSM_ONLY\r" > /dev/appvcom && echo 01 > $CONF_FILE
-    [[ "$CURRENT_MODE" == "01" ]]   && echo -e "$NETWORK_UMTS_ONLY\r" > /dev/appvcom && echo 02 > $CONF_FILE
-    [[ "$CURRENT_MODE" == "02" ]]   && echo -e "$NETWORK_LTE_ONLY\r" > /dev/appvcom && echo 03 > $CONF_FILE
-    [[ "$CURRENT_MODE" == "03" ]]   && echo -e "$NETWORK_LTE_UMTS\r" > /dev/appvcom && echo 0302 > $CONF_FILE
-    [[ "$CURRENT_MODE" == "0302" ]] && echo -e "$NETWORK_LTE_GSM\r" > /dev/appvcom && echo 0301 > $CONF_FILE
-    [[ "$CURRENT_MODE" == "0301" ]] && echo -e "$NETWORK_UMTS_GSM\r" > /dev/appvcom && echo 0201 > $CONF_FILE
-    [[ "$CURRENT_MODE" == "0201" ]] && echo -e "$NETWORK_AUTO\r" > /dev/appvcom && echo 00 > $CONF_FILE
-    /system/bin/sleep 3
+    get_state
+
+    [[ "$CURRENT_MODE" == "00" ]]   && set_state "01"
+    [[ "$CURRENT_MODE" == "01" ]]   && set_state "02"
+    [[ "$CURRENT_MODE" == "02" ]]   && set_state "03"
+    [[ "$CURRENT_MODE" == "03" ]]   && set_state "0302"
+    [[ "$CURRENT_MODE" == "0302" ]] && set_state "0301"
+    [[ "$CURRENT_MODE" == "0301" ]] && set_state "0201"
+    [[ "$CURRENT_MODE" == "0201" ]] && set_state "00"
 fi

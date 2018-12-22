@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <int>
+     <module_enabled>1</module_enabled>
+     <sleep_timeout>15000</sleep_timeout>
+    </int>
+</config>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<config>
+    <enable>1</enable>
+    <sta_policy>0</sta_policy>
+	
+    <!--0: 3G only 2: wifi prefer --> 
+    <oper_profile_cp>0</oper_profile_cp> 
+    <!--0: not copy yet, need to copy, 1: already copy, not  need to copy  -->  
+    <sta_sim_relation>0</sta_sim_relation>
+    <!--0: offload is sim not relation, 1: offload is sim relation  --> 
+    <maxwifisignal>4</maxwifisignal>
+</config>

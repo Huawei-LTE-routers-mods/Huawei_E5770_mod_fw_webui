@@ -1,0 +1,1 @@
+﻿Kako bi vam pružio bolju uslugu, ovaj će uređaj automatski pribaviti informacije o ažuriranju softvera od tvrtke Huawei ili vašeg operatera nakon povezivanja s internetom. Ovaj će postupak trošiti mobilne podatke i potreban je pristup jedinstvenom identifikatoru vašeg uređaja (IMEI/SN) i ID-ju mreže davatelja usluge (PLMN) kako bi se provjerili treba li uređaj ažurirati.

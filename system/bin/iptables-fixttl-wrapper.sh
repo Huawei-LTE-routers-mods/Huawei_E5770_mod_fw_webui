@@ -17,7 +17,7 @@ then
     elif [[ "$2" == "nat" ]];
     then
         /etc/anticensorship.sh
-        /etc/dnscrypt.sh
+        /etc/dns_over_tls.sh
     fi
 fi
 

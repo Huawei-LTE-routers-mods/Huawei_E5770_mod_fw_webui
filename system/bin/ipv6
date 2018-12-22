@@ -20,6 +20,9 @@ if [[ "$1" == "0" ]]
 then
     cp /system/usr/ipv6_webconfig/config_v4.xml /app/webroot/WebApp/common/config/lan/config.xml
 else
+    # Enable global IPv6 functionality. Does not enable IPv6 per se,
+    # just allows to enable it in the configuration files.
+    atc 'AT^NVWREX=8514,0,4,01,04,00,00'
     cp /system/usr/ipv6_webconfig/config_v6.xml /app/webroot/WebApp/common/config/lan/config.xml
 fi
 

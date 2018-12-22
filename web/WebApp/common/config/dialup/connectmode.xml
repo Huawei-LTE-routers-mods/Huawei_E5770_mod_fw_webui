@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?> 
+<config>  
+ <ConnectMode>
+      <Auto>1</Auto> 
+      <Manual>0</Manual>                  
+ </ConnectMode>
+ <!-- 页面上是否显示max_idle_time-->
+ <idle_time_enabled>1</idle_time_enabled>
+</config>

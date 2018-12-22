@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<spn>0</spn>
+	<pnn>0</pnn>
+	<pre_netmode>1</pre_netmode>
+	<partnercheck>1</partnercheck>
+	<net_premode_switch>0</net_premode_switch>
+</config>

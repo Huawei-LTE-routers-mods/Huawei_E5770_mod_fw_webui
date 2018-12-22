@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!-- ID_TXT_SIM -->
+    <sim>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>38</sy>
+        <height>52</height>
+        <width>116</width>  
+		<format>148</format>		
+        <priority>5</priority>
+    </sim>
+
+    <!-- ID_TXT_NETWORK -->
+    <network>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>38</sy>
+        <height>52</height>
+        <width>116</width>
+	<format>148</format>		
+        <priority>1</priority>
+    </network>
+
+    <!-- ID_TXT_CHARGE -->
+    <charge>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>38</sy>
+        <height>52</height>
+        <width>116</width> 
+	    <format>148</format>
+        <priority>24</priority>
+	    <cbtime>8000</cbtime>     
+    </charge>
+
+    <!-- ID_TXT_TEMP -->
+    <temp>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>30</sy>
+        <height>60</height>
+        <width>116</width>        
+        <priority>24</priority>
+	    <format>148</format>
+    </temp>
+
+    <!-- ID_TXT_TEMP_POWEROFF -->
+    <temp_poweroff>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>30</sy>
+        <height>60</height>
+        <width>116</width>
+        <priority>24</priority>
+        <format>148</format>
+        <cbtime>5000</cbtime>
+    </temp_poweroff>
+
+    <!-- ID_TXT_SSID -->
+    <ssid_cap>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>20</sy>
+        <height>20</height>
+        <width>116</width>        
+        <priority>15</priority>
+    </ssid_cap>	
+	
+    <!-- ID_TXT_KEY -->
+    <key_cap>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>20</sy>
+        <height>20</height>
+        <width>116</width>        
+        <priority>15</priority>
+    </key_cap>	
+    
+    <!-- ID_TXT_OFFLOAD -->
+    <offload>
+        <enable>0</enable>
+        <sx>6</sx>
+        <sy>38</sy>
+        <height>52</height>
+        <width>116</width>
+        <priority>16</priority>
+	<format>148</format>
+        <cbtime>3000</cbtime>
+    </offload>
+    
+      <!-- downloading -->
+  <downloading>
+    <enable>1</enable>
+    <sx>6</sx>
+    <sy>58</sy>
+    <height>32</height>
+    <width>116</width>
+    <priority>13</priority>
+    <font>0</font>
+    <format>156</format>
+    <frequency>1000</frequency>
+  </downloading>
+  
+    <!-- roaming -->
+  <roaming>
+    <enable>1</enable>
+    <sx>6</sx>
+    <sy>38</sy>
+    <height>52</height>
+    <width>116</width>
+    <priority>2</priority>
+    <font>0</font>
+    <format>156</format>
+    <frequency>500</frequency>
+  </roaming>
+  
+  <update>
+    <enable>1</enable>
+    <sx>0</sx>
+    <sy>0</sy>
+    <height>128</height>
+    <width>128</width>
+    <priority>13</priority>
+    <cbtime>3000</cbtime>
+    <font>0</font>
+    <format>148</format>
+    <frequency>500</frequency>
+  </update>
+  
+  <switch_intemode>
+    <enable>0</enable>
+    <sx>6</sx>
+    <sy>90</sy>
+    <height>16</height>
+    <width>116</width>
+    <priority>0</priority>
+    <font>2</font>
+    <format>28</format>
+  </switch_intemode>
+	
+   <info_title>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>25</sy>
+        <height>20</height>
+        <width>116</width>
+        <priority>15</priority>
+        <font>2</font>
+        <format>148</format>
+    </info_title>
+  
+  <air_plane_mode>
+     <enable>1</enable>
+     <sx>6</sx>
+     <sy>25</sy>
+     <height>40</height>
+     <width>116</width>
+     <priority>20</priority>
+     <font>0</font>
+     <format>148</format>
+     <cbtime>10000</cbtime>
+  </air_plane_mode>
+  
+  <air_plane_cancel>
+     <enable>1</enable>
+     <sx>45</sx>
+     <sy>105</sy>
+     <height>20</height>
+     <width>78</width>
+     <priority>20</priority>
+     <font>0</font>
+     <format>24</format>
+  </air_plane_cancel>  
+  
+  <air_plane_ok>
+     <enable>1</enable>
+     <sx>45</sx>
+     <sy>75</sy>
+     <height>20</height>
+     <width>78</width>
+     <priority>20</priority>
+     <font>0</font>
+     <format>24</format>
+  </air_plane_ok>
+  
+  
+  <new_soft_ware>
+     <enable>1</enable>
+     <sx>6</sx>
+     <sy>25</sy>
+     <height>40</height>
+     <width>116</width>
+     <priority>8</priority>
+     <font>0</font>
+     <format>148</format>
+  </new_soft_ware>
+  
+  <new_soft_cancel>
+     <enable>1</enable>
+     <sx>45</sx>
+     <sy>105</sy>
+     <height>20</height>
+     <width>78</width>
+     <priority>8</priority>
+     <font>0</font>
+     <format>24</format>
+  </new_soft_cancel> 
+  
+  <new_soft_update>
+     <enable>1</enable>
+     <sx>45</sx>
+     <sy>75</sy>
+     <height>20</height>
+     <width>78</width>
+     <priority>8</priority>
+     <font>0</font>
+     <format>24</format>
+  </new_soft_update>
+  
+    <excharge_tmp_high>
+        <enable>1</enable>
+        <sx>4</sx>
+        <sy>30</sy>
+        <height>60</height>
+        <width>120</width>        
+        <priority>24</priority>
+        <font>0</font>
+	<format>148</format>
+	<cbtime>5000</cbtime>
+    </excharge_tmp_high>
+	
+    <excharge_lowbat>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>30</sy>
+        <height>60</height>
+        <width>116</width>        
+        <priority>24</priority>
+        <font>2</font>
+	<format>148</format>
+    </excharge_lowbat>
+    
+      <!-- ID_TXT_IDLE_SSID -->
+    <idlessid_cap>
+        <enable>1</enable>
+        <sx>4</sx>
+        <sy>48</sy>
+        <height>20</height>
+        <width>50</width>
+        <font>2</font>
+        <format>154</format>           
+        <priority>0</priority>
+    </idlessid_cap>	
+	
+    <!-- ID_TXT_IDLE_PWD -->
+    <idlepwd_cap>
+        <enable>1</enable>
+        <sx>4</sx>
+        <sy>70</sy>
+        <height>20</height>
+        <width>50</width>  
+        <font>2</font>   
+        <format>154</format>        
+        <priority>0</priority>
+    </idlepwd_cap>
+	
+    <!-- ID_TXT_WIFI_WAKEUP -->
+    <wifi_wakeup>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>38</sy>
+        <height>52</height>
+        <width>116</width>  
+        <font>2</font>
+        <format>148</format>
+        <priority>17</priority>
+        <cbtime>3000</cbtime>
+        <erase>1</erase>
+    </wifi_wakeup>
+    
+    <!-- ID_TXT_FREQUENCE_CHANGE -->
+    <wifi_frequence>
+        <enable>1</enable>
+        <sx>5</sx>
+        <sy>64</sy>
+        <height>64</height>
+        <width>118</width>  
+        <font>2</font>
+        <format>20</format>
+        <priority>26</priority>
+        <cbtime>5000</cbtime>
+    </wifi_frequence>	
+	
+	
+	    <!-- ID_TXT_NEW_SOFTWARE_EX -->
+    <new_software_mix>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>25</sy>
+        <height>28</height>
+        <width>116</width>  
+        <font>2</font>
+        <format>148</format>
+        <priority>8</priority>
+    </new_software_mix>	
+		    <!-- ID_TXT_UPDATE_EX -->
+    <software_update_mix>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>54</sy>
+        <height>20</height>
+        <width>116</width>  
+        <font>2</font>
+        <format>148</format>
+        <priority>8</priority>
+    </software_update_mix>
+			    <!-- ID_TXT_IGNOR_EX -->
+    <software_ignore_mix>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>77</sy>
+        <height>20</height>
+        <width>116</width>  
+        <font>2</font>
+        <format>148</format>
+        <priority>8</priority>
+    </software_ignore_mix>
+				    <!-- ID_TXT_NEXT_EX -->
+    <software_next_mix>
+        <enable>1</enable>
+        <sx>30</sx>
+        <sy>102</sy>
+        <height>20</height>
+        <width>45</width>  
+        <font>2</font>
+        <format>216</format>
+        <priority>8</priority>
+    </software_next_mix>
+	
+					    <!-- ID_TXT_OK_EX -->
+    <software_ok_mix>
+        <enable>1</enable>
+        <sx>100</sx>
+        <sy>102</sy>
+        <height>22</height>
+        <width>22</width>  
+        <font>2</font>
+        <format>216</format>
+        <priority>8</priority>
+    </software_ok_mix> 
+
+	
+	<!-- ID_TXT_NEW_SOFTWARE_EX -->
+    <excharge_network_mix>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>25</sy>
+        <height>28</height>
+        <width>116</width>  
+        <font>2</font>
+        <format>148</format>
+        <priority>20</priority>
+    </excharge_network_mix>	
+		    <!-- ID_TXT_UPDATE_EX -->
+    <excharge_turn_off_mix>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>54</sy>
+        <height>20</height>
+        <width>116</width>  
+        <font>2</font>
+        <format>148</format>
+        <priority>20</priority>
+    </excharge_turn_off_mix>
+			    <!-- ID_TXT_IGNOR_EX -->
+    <excharge_ignor_mix>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>77</sy>
+        <height>20</height>
+        <width>116</width>  
+        <font>2</font>
+        <format>148</format>
+        <priority>20</priority>
+    </excharge_ignor_mix>
+				    <!-- ID_TXT_NEXT_EX -->
+    <excharge_next_mix>
+        <enable>1</enable>
+        <sx>30</sx>
+        <sy>102</sy>
+        <height>20</height>
+        <width>45</width>  
+        <font>2</font>
+        <format>216</format>
+        <priority>20</priority>
+    </excharge_next_mix>
+	
+					    <!-- ID_TXT_OK_EX -->
+    <excharge_ok_mix>
+        <enable>1</enable>
+        <sx>100</sx>
+        <sy>102</sy>
+        <height>22</height>
+        <width>22</width>  
+        <font>2</font>
+        <format>216</format>
+        <priority>20</priority>
+    </excharge_ok_mix>
+	
+	  <!-- IDLEPLMN -->
+  <cradle_promote>
+    <enable>1</enable>
+    <sx>6</sx>
+    <sy>25</sy>
+    <height>20</height>
+    <width>122</width>
+    <priority>3</priority>
+    <font>0</font>
+    <format>28</format>
+    <frequency>1000</frequency>
+  </cradle_promote>
+  
+    <!-- PLMN -->
+  <cradle_midle_promote>
+    <enable>1</enable>
+    <sx>6</sx>
+    <sy>50</sy>
+    <height>22</height>
+    <width>116</width>
+    <priority>3</priority>
+    <font>0</font>
+    <format>28</format>
+    <frequency>1000</frequency>
+  </cradle_midle_promote>
+  
+      <double_ssid_5g>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>25</sy>
+        <height>70</height>
+        <width>116</width>        
+        <priority>17</priority>
+        <font>2</font>
+	    <format>148</format>
+    </double_ssid_5g>
+	
+	   <!-- ID_TXT_IDLE_SSID -->
+    <idle_ssid_cap>
+        <enable>1</enable>
+        <sx>14</sx>
+        <sy>50</sy>
+        <height>20</height>
+        <width>30</width>
+        <font>2</font>
+        <format>154</format>           
+        <priority>0</priority>
+    </idle_ssid_cap>	
+	
+    <!-- ID_TXT_IDLE_PWD -->
+    <idle_pwd_cap>
+        <enable>1</enable>
+        <sx>14</sx>
+        <sy>72</sy>
+        <height>20</height>
+        <width>30</width>  
+        <font>2</font>   
+        <format>154</format>        
+        <priority>0</priority>
+    </idle_pwd_cap>
+	
+	 <!-- ID_TXT_IDLE_SSID -->
+    <idle_wrap_ssid_cap>
+        <enable>1</enable>
+        <sx>14</sx>
+        <sy>50</sy>
+        <height>16</height>
+        <width>30</width>
+        <font>2</font>
+        <format>154</format>           
+        <priority>0</priority>
+    </idle_wrap_ssid_cap>	
+	
+    <!-- ID_TXT_IDLE_PWD -->
+    <idle_wrap_pwd_cap>
+        <enable>1</enable>
+        <sx>14</sx>
+        <sy>82</sy>
+        <height>16</height>
+        <width>30</width>  
+        <font>2</font>   
+        <format>154</format>        
+        <priority>0</priority>
+    </idle_wrap_pwd_cap>
+	
+    <dfs_scan>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>38</sy>
+        <height>52</height>
+        <width>116</width>  
+	<format>156</format>		
+        <priority>17</priority>
+    </dfs_scan>
+	
+	
+	
+		<!-- ID_TXT_NEW_SOFTWARE_EX -->
+    <wps_tips_mix>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>25</sy>
+        <height>28</height>
+        <width>116</width>  
+        <font>2</font>
+        <format>148</format>
+        <priority>13</priority>
+    </wps_tips_mix>	
+		    <!-- ID_TXT_UPDATE_EX -->
+    <wps_cancel_mix>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>54</sy>
+        <height>20</height>
+        <width>116</width>  
+        <font>2</font>
+        <format>148</format>
+        <priority>13</priority>
+    </wps_cancel_mix>
+			    <!-- ID_TXT_IGNOR_EX -->
+    <wps_ignor_mix>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>77</sy>
+        <height>20</height>
+        <width>116</width>  
+        <font>2</font>
+        <format>148</format>
+        <priority>13</priority>
+    </wps_ignor_mix>
+				    <!-- ID_TXT_NEXT_EX -->
+    <wps_next_mix>
+        <enable>1</enable>
+        <sx>30</sx>
+        <sy>102</sy>
+        <height>20</height>
+        <width>45</width>  
+        <font>2</font>
+        <format>216</format>
+        <priority>13</priority>
+    </wps_next_mix>
+	
+					    <!-- ID_TXT_OK_EX -->
+    <wps_ok_mix>
+        <enable>1</enable>
+        <sx>100</sx>
+        <sy>102</sy>
+        <height>22</height>
+        <width>22</width>  
+        <font>2</font>
+        <format>216</format>
+        <priority>13</priority>
+    </wps_ok_mix>
+	
+    <autoupdate_tips>
+        <enable>1</enable>
+        <sx>6</sx>
+        <sy>38</sy>
+        <height>52</height>
+        <width>116</width>  
+        <font>2</font>
+        <format>148</format>
+        <priority>17</priority>
+        <cbtime>5000</cbtime>
+    </autoupdate_tips>
+</config>

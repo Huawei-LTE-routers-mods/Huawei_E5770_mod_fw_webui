@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!-- UI switch 1 (Enable)/0(Disable) -->
+    <ui_enable>1</ui_enable>
+    <!-- DH_Prime -->
+    <dh_p_para>ufRIbzdeyDkaE8j6uA/fc7Q3jkp2bju37bUuaYbkpg9xctOozgXgxsSViZhy9EuAFOCHnc7kVPYAsSaDZtIf3K19KM2P7kSffJIYvC/AkGk2yx0+aNaLQ4AR/U7IzvknV9Zj3pXYbJ1WllBGhLEwLmlAYzqWGjCk3zY1irQgn2Ce0GRvgZJmjQvjFnUXnjqbFdyQc7au6ANXaUOHLDSp/Ebx5NvI1gVQj/ffO6/t3XuU+jaHcav2rW7YHGSnUsd116aV8t0Gycv+R1h9QvMguoTWzXV7OyqTS0Z2G+x4kQrd5HkzWiI/qjPxqNYp92vhnLLr17QIQuH3gaJSvsXJHQ==</dh_p_para>
+    <!-- DH_Generator -->
+    <dh_g_para>ZbMYMlZFYIE=</dh_g_para>
+    <!-- deviceid_key -->
+    <deviceid_key>rkN1q3Msb6mzI53QGgulIFQ7DrZkEY6J</deviceid_key>
+    <!-- server_http -->
+    <server_http>http://skytone.vmall.com/vsimmanager/rest/client</server_http>
+    <!-- server_https -->
+    <server_https>https://skytone.vmall.com:443/vsimmanager/rest/client</server_https>
+    <!-- log server -->
+    <logserver>https://skytone.vmall.com:443/vsimlogserver/client</logserver>
+    <!-- redirect_server -->
+    <redirect_server>http://redirect_skytone_1.vmall.com/mifi/mifi.action</redirect_server>
+    <redirect_enc_key>fsB3LtqCTC8h0nddyCmgRsXM8qq1Rj2q</redirect_enc_key>
+    <!-- cipher -->
+    <cipher>dhIiIwzyp8h1BLhhn/384zUq/101SD5Q+8g7MjxnH2U=</cipher>
+    <!-- user pre data Key -->
+    <untiecode>14t7Tj9cRNaU6Ua3YXexmj5X5h3hyJJm</untiecode>
+</config>

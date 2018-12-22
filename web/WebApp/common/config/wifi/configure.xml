@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <wifiBandWidthenable>1</wifiBandWidthenable>
+    <wifiwps>
+        <wpspinpbc>0</wpspinpbc>
+    </wifiwps>
+    <ssidpasswordenable>0</ssidpasswordenable>
+    <wifiap_isolation_enable>1</wifiap_isolation_enable>
+</config>

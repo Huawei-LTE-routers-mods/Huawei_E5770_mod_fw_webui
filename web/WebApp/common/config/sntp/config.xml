@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+
+		<enable>0</enable>
+		<zonetime_enabled>0</zonetime_enabled>
+        <switch>
+                  <sntpswitch>1</sntpswitch>
+                  <timediffswitch>1</timediffswitch>
+        </switch>
+        <updateintervals>
+                  <sntpupdateintervals>2592000</sntpupdateintervals>
+        </updateintervals>
+		<swinterval>
+				  <sntpfailedinterval></sntpfailedinterval>
+		</swinterval>
+        <step>
+                  <sntpupdatestep>60</sntpupdatestep>
+        </step>
+        <timezone>
+                  <timezone></timezone>
+        </timezone>
+        <timeset>
+                  <timesetswitch>0</timesetswitch>
+                  <setzone>GMT+00:00</setzone>
+                  <setcity></setcity>
+        </timeset>
+        <server>
+                  <sntpserveraddress0>ntp.nasa.gov</sntpserveraddress0>
+                  <sntpserveraddress1>time.nist.gov</sntpserveraddress1>
+                  <sntpserveraddress2>time-nw.nist.gov</sntpserveraddress2>
+                  <sntpserveraddress3></sntpserveraddress3>
+                  <sntpserveraddress4></sntpserveraddress4>
+        </server>
+</config>

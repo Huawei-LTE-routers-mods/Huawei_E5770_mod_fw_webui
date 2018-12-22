@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <hardware>
+        <classify>DataCard</classify>
+    </hardware>
+    <webui>
+    	<api>1.0</api>
+    </webui>
+    <pc>
+        <version>100.11.13.200</version>
+    </pc>
+    <savepin>
+          <simsavepinenable>0</simsavepinenable>
+          <simsavepinstatus>0</simsavepinstatus>
+          <simsavepinscid> </simsavepinscid>
+          <simsavepinpin>9zhX3BBUTJg=</simsavepinpin>	  
+          <encryptmethod>2</encryptmethod>
+    </savepin>
+    <poweroff>
+    	<time>960</time>
+    </poweroff>
+    <fastboot>
+    	<fastbootswitch>0</fastbootswitch>
+    	<autoshutdown>720</autoshutdown>
+    </fastboot>
+	<cpeinfo>
+    	<provisioning_code></provisioning_code>
+    </cpeinfo>
+    <powersave_enable>0</powersave_enable>
+    <tetheringswitch>0</tetheringswitch>
+    <poweroff_enabled>1</poweroff_enabled>
+    <maxsignal>5</maxsignal>
+    <ecomode_enable>1</ecomode_enable>
+    <encrypt_enabled>1</encrypt_enabled>
+    <ecomode>
+    	<ecomodeswitch>1</ecomodeswitch>
+    	<ecomodetype>1</ecomodetype>
+    	<ecowifiofftime>600</ecowifiofftime>
+    </ecomode>
+	<restore_default_status>1</restore_default_status>
+    <nopwd>1</nopwd>
+</config>
+

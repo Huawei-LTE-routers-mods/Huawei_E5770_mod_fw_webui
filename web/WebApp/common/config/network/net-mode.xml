@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <net_works>
+        <net_work1><index>1</index><networktype></networktype></net_work1>
+        <net_work2><index>2</index><networktype></networktype></net_work2>
+        <net_work3><index>3</index><networktype></networktype></net_work3>
+        <net_work4><index>4</index><networktype></networktype></net_work4>
+        <net_work5><index>5</index><networktype></networktype></net_work5>
+    </net_works>
+    <net_modes>
+        <net_mode1><index>1</index><networktype></networktype></net_mode1>
+        <net_mode2><index>2</index><networktype></networktype></net_mode2>
+        <net_mode3><index>3</index><networktype></networktype></net_mode3>
+        <net_mode4><index>4</index><networktype></networktype></net_mode4>
+        <net_mode5><index>5</index><networktype></networktype></net_mode5>
+        <net_mode6><index>6</index><networktype></networktype></net_mode6>
+        <net_mode7><index>7</index><networktype></networktype></net_mode7>        
+    </net_modes>
+</config>
+    

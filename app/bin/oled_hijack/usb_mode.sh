@@ -1,6 +1,5 @@
 #!/system/bin/busybox sh
 
-ATC="/app/bin/oled_hijack/atc"
 CONF_FILE="/var/usb_mode"
 
 # HACK: ECM mode needs kernel patch. See /system/etc/patchblocked.sh
@@ -31,7 +30,7 @@ status_from_mode() {
 # usb mode caching to prevent menu slowdowns
 if [[ ! -f "$CONF_FILE" ]]
 then
-    CURRENT_USB_MODE="$($ATC 'AT^NVRD=50091' | grep 'NVRD' | grep -o ',[0-9A-F ]\{179\}' | cut -b 2-999)"
+    CURRENT_USB_MODE="$(atc 'AT^NVRD=50091' | grep 'NVRD' | grep -o ',[0-9A-F ]\{179\}' | cut -b 2-999)"
     CURRENT_USB_MODE="$(status_from_mode "$CURRENT_USB_MODE")"
     if [[ "$CURRENT_USB_MODE" == "" ]]
     then
@@ -66,12 +65,12 @@ fi
 
 if [[ "$1" == "set_next" ]]
 then
-    [[ "$CURRENT_USB_MODE" == "0" ]] && echo -e "AT^NVWR=50091,60,$MODE_1\r" > /dev/appvcom && echo 1 > $CONF_FILE && exit 0
-    [[ "$CURRENT_USB_MODE" == "1" ]] && echo -e "AT^NVWR=50091,60,"$MODE_2"\r" > /dev/appvcom && echo 2 > $CONF_FILE && exit 0
-    [[ "$CURRENT_USB_MODE" == "2" ]] && echo -e "AT^NVWR=50091,60,"$MODE_3"\r" > /dev/appvcom && echo 3 > $CONF_FILE && exit 0
-    [[ "$CURRENT_USB_MODE" == "3" ]] && echo -e "AT^NVWR=50091,60,"$MODE_4"\r" > /dev/appvcom && echo 4 > $CONF_FILE && exit 0
-    [[ "$CURRENT_USB_MODE" == "4" ]] && echo -e "AT^NVWR=50091,60,"$MODE_5"\rAT^NVWR=33,4,2,0,0,0\r" > /dev/appvcom && echo 5 > $CONF_FILE && exit 0
-    [[ "$CURRENT_USB_MODE" == "5" ]] && echo -e "AT^NVWR=50091,60,"$MODE_0"\rAT^NVWR=33,4,0,0,0,0\r" > /dev/appvcom && echo 0 > $CONF_FILE && exit 0
+    [[ "$CURRENT_USB_MODE" == "0" ]] && atc "AT^NVWR=50091,60,$MODE_1" && echo 1 > $CONF_FILE && exit 0
+    [[ "$CURRENT_USB_MODE" == "1" ]] && atc "AT^NVWR=50091,60,$MODE_2" && echo 2 > $CONF_FILE && exit 0
+    [[ "$CURRENT_USB_MODE" == "2" ]] && atc "AT^NVWR=50091,60,$MODE_3" && echo 3 > $CONF_FILE && exit 0
+    [[ "$CURRENT_USB_MODE" == "3" ]] && atc "AT^NVWR=50091,60,$MODE_4" && echo 4 > $CONF_FILE && exit 0
+    [[ "$CURRENT_USB_MODE" == "4" ]] && atc "AT^NVWR=50091,60,$MODE_5" && atc "AT^NVWR=33,4,2,0,0,0" && echo 5 > $CONF_FILE && exit 0
+    [[ "$CURRENT_USB_MODE" == "5" ]] && atc "AT^NVWR=50091,60,$MODE_0" && atc "AT^NVWR=33,4,0,0,0,0" && echo 0 > $CONF_FILE && exit 0
 
     exit 253
 fi

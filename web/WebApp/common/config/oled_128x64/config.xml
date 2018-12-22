@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <oled_fun>
+    <enable>1</enable>
+  </oled_fun>
+
+  <scr_size>
+    <height>128</height>
+    <width>128</width>
+  </scr_size>
+
+  <oled_dim>
+    <time>10</time>
+  </oled_dim>
+
+  <oled_sleep>
+    <time>15</time>
+  </oled_sleep>
+
+  <flux>
+    <enable>1</enable>
+    <type>0</type>
+  </flux>
+
+  <light>
+    <enable>0</enable>
+  </light>
+
+  <oper>
+	<number>0</number>
+  </oper>
+
+  <ssid>
+    <enable>1</enable>
+    <screen_number>1</screen_number>
+  </ssid>
+  
+  <ipaddress>
+    <enable>0</enable>
+  </ipaddress>
+  
+  <softversion>
+    <enable>0</enable>
+  </softversion>
+  
+  <homepage>
+    <enable>1</enable>
+  </homepage>
+
+  <update>
+    <complete>0</complete>
+  </update>
+  <imei>
+    <enable>0</enable>
+  </imei>
+
+  <sn>
+    <enable>0</enable>
+  </sn>
+  
+  <snimei>
+    <number>0</number>
+  </snimei>
+</config>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<profile>
+<index>1</index>
+<is_valid>1</is_valid>
+<profile_name>Commercial APN</profile_name>
+<apn_is_static>0</apn_is_static>
+<apn></apn>
+<dialup_num></dialup_num>
+<username></username>
+<password></password>
+<auth_mode>0</auth_mode>
+<ip_is_static>0</ip_is_static>
+<ip_address/>
+<ipv6_address/>
+<dns_is_static>0</dns_is_static>
+<primary_dns/>
+<secondary_dns/>
+<primary_ipv6_dns/>
+<secondary_ipv6_dns/>
+<read_only>0</read_only>
+</profile>
+</config>

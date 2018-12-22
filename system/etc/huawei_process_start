@@ -40,7 +40,7 @@ busybox ln -sf /system/bin/busybox /bin/lsusb
 busybox ln -sf /system/bin/busybox /bin/lspci
 busybox ln -sf /system/bin/busybox /bin/ls
 
-export LD_LIBRARY_PATH="/app/lib:/system/lib:/app/lib"
+export LD_LIBRARY_PATH="/app/lib:/system/lib:/app/lib:/system/lib/glibc"
 
 export PATH="/bin:/sbin:/app/bin:/system/sbin:/system/bin:/system/xbin:/app/bin"
 

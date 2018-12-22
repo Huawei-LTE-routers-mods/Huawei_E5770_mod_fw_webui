@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+	<!--时间同步方式 ,1-NITZ，2-SNTP，3-BBOU，4-MANUAL -->
+    <time_policy>
+          <sync_prior0>1</sync_prior0>
+		  <sync_prior1>2</sync_prior1>
+		  <sync_prior2>3</sync_prior2>
+		  <sync_prior3>4</sync_prior3>
+    </time_policy>
+</config>

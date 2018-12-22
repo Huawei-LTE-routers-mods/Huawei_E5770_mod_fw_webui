@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!-- 特性开关(默认显示、开启) 1(开启)/0(关闭)-->
+    <enable>1</enable>
+    <!-- 会话短信特性开关(默认显示、开启) 1(开启)/0(关闭)-->
+    <session_sms_enabled>0</session_sms_enabled>
+    <!-- 一页显示短信条数。默认20，默认显示取值范围[1,20]，整型 -->
+    <pagesize>20</pagesize>        
+    <!-- 最大群发数。默认50，取值范围[1,50]，整型 -->
+    <maxphone>50</maxphone>
+    <!-- 特殊语种定制。默认0，取值范围｛0,1,2,3｝,整型 1 turkish 2 spanish 3 Portuguese-->
+    <smscharlang>0</smscharlang>
+    <!-- 本地短信容量。默认500，取值范围[50,500]，整型 -->
+    <localmax>500</localmax>
+    <!-- 短信有效期，默认10752（最大值）取值范围{1,12,24,168,10752}，整型 -->
+    <validity>10752</validity>
+    <!-- 是否有导入功能-->
+    <import_enabled>1</import_enabled>
+    <!--是否支持页面显示短信中心号码-->
+    <sms_center_enabled>0</sms_center_enabled>
+    <!--是否支持短信优先级-->
+    <sms_priority_enabled>0</sms_priority_enabled>
+    <!--是否支持短有效期-->
+    <sms_validity_enabled>0</sms_validity_enabled>
+    <!--是否CDMA制式-->
+    <cdma_enabled>0</cdma_enabled>
+    <!--短信内容是否支持URL链接-->
+    <url_enabled>1</url_enabled>
+    <!--有损7bit定制-->
+    <smscharmap>0</smscharmap>
+    <!--cbs switch-->
+    <cbsenable>0</cbsenable>
+    <!--cbs prearrange channel-->
+    <cbschannellist></cbschannellist>
+    <!--短信收信人是否支持从电话本中获取-->
+    <getcontactenable>0</getcontactenable>
+    <!--短信同步，0：表示使用老的短信同步方案，1：表示使用新短信同步方案-->
+    <smsfulltype>0</smsfulltype>
+</config>
