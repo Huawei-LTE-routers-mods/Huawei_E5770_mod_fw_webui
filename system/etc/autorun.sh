@@ -44,7 +44,7 @@ busybox sysctl -p /system/etc/sysctl.conf
 # Disables mobile logger and saves flash rewrite cycles
 [ ! -f /app/config/mlog/mlogcfg.cfg ] && rm /online/mobilelog/mlogcfg.cfg
 
-[ ! -f /data/userdata/passwd ] && cp /usr/default_files/passwd_def /data/userdata/passwd
+[ ! -f /data/userdata/passwd ] && cp /system/usr/default_files/passwd_def /data/userdata/passwd
 [ ! -f /data/userdata/telnet_disable ] && telnetd -l login -b 0.0.0.0
 [ ! -f /data/userdata/adb_disable ] && adb
 
