@@ -31,6 +31,7 @@
 # been WARNED.
 PATH=/bin:/sbin:/app/bin:/system/sbin:/system/bin:/system/xbin
 
+# Disable DNS redirection
 /system/bin/openvpn_scripts/dns-redir.sh 0
 
 # Remove MASQUERADE to tun/tap interfaces
@@ -38,11 +39,11 @@ xtables-multi iptables -t nat -D POSTROUTING -o tun+ -j MASQUERADE
 xtables-multi iptables -t nat -D POSTROUTING -o tap+ -j MASQUERADE
 
 # Remove DROP rule from FORWARD chain
-xtables-multi iptables -A FIREWALL_FORWARD -i tun+ -j DROP
-xtables-multi iptables -A FIREWALL_FORWARD -i tap+ -j DROP
+xtables-multi iptables -D FIREWALL_FORWARD -i tun+ -j DROP
+xtables-multi iptables -D FIREWALL_FORWARD -i tap+ -j DROP
 
 # Remove DROP rule from INPUT chain
-xtables-multi iptables -A FIREWALL_INPUT -i tun+ -j DROP
-xtables-multi iptables -A FIREWALL_INPUT -i tap+ -j DROP
+xtables-multi iptables -D FIREWALL_INPUT -i tun+ -j DROP
+xtables-multi iptables -D FIREWALL_INPUT -i tap+ -j DROP
 
 exit 0

@@ -71,11 +71,11 @@ done
 xtables-multi iptables -t nat -I POSTROUTING -o tun+ -j MASQUERADE
 xtables-multi iptables -t nat -I POSTROUTING -o tap+ -j MASQUERADE
 
-# Add DROP rule to FORWARD chain
+# Add DROP rule to FORWARD chain (disallow forwarding FROM VPN TO LAN)
 xtables-multi iptables -A FIREWALL_FORWARD -i tun+ -j DROP
 xtables-multi iptables -A FIREWALL_FORWARD -i tap+ -j DROP
 
-# Add DROP rule to INPUT chain
+# Add DROP rule to INPUT chain (disallow access FROM VPN TO ROUTER SERVICES)
 xtables-multi iptables -A FIREWALL_INPUT -i tun+ -j DROP
 xtables-multi iptables -A FIREWALL_INPUT -i tap+ -j DROP
 
