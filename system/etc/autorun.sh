@@ -12,13 +12,16 @@ mkdir /dev/net
 mknod /dev/net/tun c 10 200
 
 busybox echo 0 > /proc/sys/net/netfilter/nf_conntrack_checksum
-/etc/huawei_process_start
 
 # NV restore flag, load patches only when normal boot.
 if [[ "$(cat /proc/dload_nark)" == "nv_restore_start" ]];
 then
+    /etc/huawei_process_start
     exit 0
 fi
+
+/etc/fix_ttl.sh 0
+/etc/huawei_process_start
 
 # TUN/TAP support
 insmod /system/bin/kmod/tun.ko
@@ -38,7 +41,6 @@ busybox sysctl -p /system/etc/sysctl.conf
 # to be readable/writable using AT^NVRD/AT^NVWR.
 /etc/patchblocked.sh boot
 /etc/patch_usbmac.sh
-/etc/fix_ttl.sh 0
 
 # Remove /online/mobilelog/mlogcfg.cfg if /app/config/mlog/mlogcfg.cfg does NOT exist
 # Disables mobile logger and saves flash rewrite cycles
