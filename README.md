@@ -25,14 +25,14 @@ Changes:
 * Installed "ttl" script for modifying (fixing) TTL (for IPv4) and HL (for IPv6)
 * Installed "imei" script to change IMEI
 * A local transparent proxy server "tpws" and a script "anticensorship" are installed to circumvent censorship to sites from the registry of prohibited sites in Russian Federation (IPv4 only)
-* Added DNS over TLS resolver stubby (version 1.5.1, compiled with OpenSSL 1.0.2p) and DNS-level adblock (IPv4 only)
+* Added DNS over TLS resolver stubby (version 1.5.2, compiled with OpenSSL 1.0.2t) and DNS-level adblock (IPv4 only)
 * Added [extended menu on OLED screen](https://github.com/ValdikSS/huawei_oled_hijack)
 * Added RNDIS and ECM Ethernet switching functionality without a switch program on a computer
 * All NVRAM items are unlocked
 * AT^DATALOCK code is disabled
 * Added kernel module TUN/TAP (for OpenVPN and other programs)
-* Added OpenVPN (version 2.4.6, compiled with OpenSSL 1.0.2p) and scripts for DNS redirection
-* Added curl (version 7.63.0, compiled with OpenSSL 1.0.2p)
+* Added OpenVPN (version 2.4.8, compiled with OpenSSL 1.0.2t) and scripts for DNS redirection
+* Added curl (version 7.67.0, compiled with OpenSSL 1.0.2t)
 * Added EXT4 kernel module and swap support
 * Added script for installing Entware application repository
 * Added script "adblock_update", for updating the list of advertising domains
