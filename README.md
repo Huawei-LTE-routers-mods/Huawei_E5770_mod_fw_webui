@@ -5,6 +5,8 @@ Huawei E5770 firmware and web interface repository. Check available branches.
 
 Current version: FW 21.290.23.00.00, WEBUI: 17.100.19.01.00
 
+**Check [releases page](https://github.com/Huawei-LTE-routers-mods/Huawei_E5770_mod_fw_webui/releases) for the firmware file.**
+
 ---------------------------------------
 
 The firmware is based on the original global firmware version 21.290.23.00.00. It could be installed on any technological firmware, or updated from a modified firmware.
